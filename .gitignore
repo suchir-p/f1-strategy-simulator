@@ -1,0 +1,15 @@
+engine/build*/
+.fastf1-cache/
+__pycache__/
+*.pyc
+.venv/
+benchmarks/results*.json
+.DS_Store
+frontend/node_modules/
+frontend/.next/
+frontend/test-results/
+frontend/playwright-report/
+frontend/tsconfig.tsbuildinfo
+results/.bench-*
+.env
+dist/
