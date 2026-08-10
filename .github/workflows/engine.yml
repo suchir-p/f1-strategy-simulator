@@ -1,0 +1,153 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  engine:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        build: [Release, Sanitize]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure
+        run: |
+          if [ "${{ matrix.build }}" = "Sanitize" ]; then
+            cmake -S engine -B engine/build -DCMAKE_BUILD_TYPE=Debug -DF1SIM_SANITIZE=ON
+          else
+            cmake -S engine -B engine/build -DCMAKE_BUILD_TYPE=Release
+          fi
+      - name: Build
+        run: cmake --build engine/build -j
+      - name: Test
+        run: ctest --test-dir engine/build --output-on-failure
+      - name: Results identical across thread counts
+        if: matrix.build == 'Release'
+        run: |
+          engine/build/f1sim_bench --threads 1,2 --repeats 1 --mc-scenarios 2000 --opt-scenarios 10
+      - name: CLI smoke test
+        run: |
+          engine/build/f1sim_cli simulate --config data/examples/synthetic_race.json \
+            --driver LEC --strategy M-24-H --scenarios 200 > /dev/null
+
+  backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: f1sim
+          POSTGRES_PASSWORD: f1sim
+          POSTGRES_DB: f1sim
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U f1sim" --health-interval 2s --health-retries 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Python dependencies
+        run: |
+          pip install pybind11 numpy pandas scipy
+          pip install -r backend/requirements.txt
+      - name: Build engine Python module
+        run: |
+          cmake -S engine -B engine/build -DF1SIM_BUILD_TESTS=OFF -DF1SIM_BUILD_PYTHON=ON \
+            -Dpybind11_DIR=$(python -c "import pybind11; print(pybind11.get_cmake_dir())")
+          cmake --build engine/build -j --target f1sim_py
+      - name: Pre-race integrity tests
+        run: python -m pytest data/tests -q
+      - name: Backend integration tests
+        working-directory: backend
+        env:
+          F1SIM_TEST_PG: postgresql+psycopg://f1sim:f1sim@localhost:5432
+        run: python -m pytest -q
+      - name: Start API for end-to-end tests
+        run: |
+          cd backend
+          F1SIM_DATABASE_URL=postgresql+psycopg://f1sim:f1sim@localhost:5432/f1sim \
+            nohup python -m uvicorn app.main:app --port 8000 > ../api.log 2>&1 &
+          for i in $(seq 1 30); do curl -sf localhost:8000/health && break; sleep 1; done
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Frontend checks and end-to-end tests
+        working-directory: frontend
+        run: |
+          npm ci
+          npm run typecheck
+          npm test
+          npm run build
+          npx playwright install --with-deps chromium
+          npx playwright test
+
+  stack:
+    # The one-command setup, from a clean checkout: build every image, start the
+    # stack, wait for the health checks, and run a simulation through the dashboard.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and start (docker compose up)
+        run: docker compose up --build --detach --wait --wait-timeout 900
+      - name: Dashboard serves, API answers through it, a simulation completes
+        run: |
+          curl -fsS http://localhost:3000/ > /dev/null
+          curl -fsS http://localhost:3000/api/health
+          job=$(curl -fsS -X POST http://localhost:3000/api/simulations \
+                  -H 'content-type: application/json' \
+                  -d '{"race_id":"2024-italy","driver":"LEC","strategy":"M-24-H","scenarios":200}' \
+                | python3 -c "import sys, json; print(json.load(sys.stdin)['job_id'])")
+          for i in $(seq 1 60); do
+            status=$(curl -fsS "http://localhost:3000/api/jobs/$job" \
+                     | python3 -c "import sys, json; print(json.load(sys.stdin)['status'])")
+            [ "$status" = completed ] && break
+            [ "$status" = failed ] && exit 1
+            sleep 1
+          done
+          [ "$status" = completed ]
+      - name: Production mode refuses the default database password
+        run: |
+          if docker compose run --rm --no-deps -e F1SIM_ENV=production api \
+               python -c "from app.config import Settings; Settings()"; then
+            echo "production mode accepted the default password"; exit 1
+          fi
+      - name: Production configuration starts, serves, and enforces its limits
+        run: |
+          docker compose down -v
+          {
+            echo "F1SIM_ENV=production"
+            echo "POSTGRES_PASSWORD=$(openssl rand -hex 24)"
+            echo "F1SIM_RATE_LIMIT_PER_MINUTE=3"
+          } > .env
+          docker compose up --detach --wait --wait-timeout 300
+          sim='{"race_id":"2024-italy","driver":"LEC","strategy":"M-24-H","scenarios":200}'
+          post() { curl -s -o /tmp/body -w "%{http_code}" -X POST http://localhost:3000/api/simulations \
+                     -H 'content-type: application/json' "$@" -d "$sim"; }
+          [ "$(post)" = 202 ]
+          job=$(python3 -c "import json; print(json.load(open('/tmp/body'))['job_id'])")
+          for i in $(seq 1 60); do
+            status=$(curl -fsS "http://localhost:3000/api/jobs/$job" \
+                     | python3 -c "import sys, json; print(json.load(sys.stdin)['status'])")
+            [ "$status" = completed ] && break; sleep 1
+          done
+          [ "$status" = completed ]
+          # The job list is hidden in production.
+          [ "$(curl -s -o /dev/null -w '%{http_code}' http://localhost:3000/api/jobs)" = 404 ]
+          # Three submissions per minute; a fake X-Forwarded-For doesn't buy more.
+          [ "$(post)" = 202 ]
+          [ "$(post)" = 202 ]
+          [ "$(post)" = 429 ]
+          [ "$(post -H 'x-forwarded-for: 198.51.100.4')" = 429 ]
+          [ "$(post -H 'x-forwarded-for: 203.0.113.9, 10.0.0.1')" = 429 ]
+          rm .env
+      - name: Logs
+        if: failure()
+        run: docker compose logs
+      - name: Stop
+        if: always()
+        run: docker compose down -v
