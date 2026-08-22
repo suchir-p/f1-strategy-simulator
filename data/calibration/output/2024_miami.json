@@ -1,0 +1,427 @@
+{
+  "name": "2024 Miami Grand Prix",
+  "season": 2024,
+  "synthetic": false,
+  "total_laps": 57,
+  "fuel_effect_per_lap": 0.05357,
+  "pit_loss_green": 20.822,
+  "pit_loss_safety_car": 11.827,
+  "grid_spacing": 0.25,
+  "min_compounds_required": 2,
+  "compounds": [
+    {
+      "designation": "soft",
+      "absolute_compound": "C4",
+      "pace_offset": -0.1912,
+      "deg_linear": 0.023953,
+      "deg_quadratic": 0.000253,
+      "max_stint_laps": 28,
+      "clean_laps": 37,
+      "confidence": "pooled"
+    },
+    {
+      "designation": "medium",
+      "absolute_compound": "C3",
+      "pace_offset": 0.0096,
+      "deg_linear": 0.01848,
+      "deg_quadratic": 0.0,
+      "max_stint_laps": 36,
+      "clean_laps": 484,
+      "confidence": "race"
+    },
+    {
+      "designation": "hard",
+      "absolute_compound": "C2",
+      "pace_offset": 0.0598,
+      "deg_linear": 0.01486,
+      "deg_quadratic": 0.000259,
+      "max_stint_laps": 45,
+      "clean_laps": 413,
+      "confidence": "race"
+    }
+  ],
+  "safety_car": {
+    "start_probability_per_lap": 0.02,
+    "min_duration_laps": 2,
+    "max_duration_laps": 5,
+    "lap_time": 118.134,
+    "bunched_gap": 1.0,
+    "earliest_lap": 2,
+    "latest_lap_margin": 2
+  },
+  "noise": {
+    "race_pace_sigma": 0.15,
+    "lap_sigma": 0.4671
+  },
+  "drivers": [
+    {
+      "code": "NOR",
+      "base_lap_time": 90.3039,
+      "grid_position": 5,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 29,
+            "compound": "H"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "VER",
+      "base_lap_time": 90.3301,
+      "grid_position": 1,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 23,
+            "compound": "H"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "LEC",
+      "base_lap_time": 90.3508,
+      "grid_position": 2,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 19,
+            "compound": "H"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "PER",
+      "base_lap_time": 90.6514,
+      "grid_position": 4,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 17,
+            "compound": "H"
+          },
+          {
+            "lap": 28,
+            "compound": "M"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "SAI",
+      "base_lap_time": 90.4807,
+      "grid_position": 3,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 27,
+            "compound": "H"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "HAM",
+      "base_lap_time": 90.8832,
+      "grid_position": 8,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "H",
+        "stops": [
+          {
+            "lap": 26,
+            "compound": "M"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "TSU",
+      "base_lap_time": 91.232,
+      "grid_position": 10,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 28,
+            "compound": "H"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "RUS",
+      "base_lap_time": 91.241,
+      "grid_position": 7,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 24,
+            "compound": "H"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "ALO",
+      "base_lap_time": 91.5176,
+      "grid_position": 15,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "H",
+        "stops": [
+          {
+            "lap": 22,
+            "compound": "M"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "OCO",
+      "base_lap_time": 91.466,
+      "grid_position": 13,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 22,
+            "compound": "H"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "HUL",
+      "base_lap_time": 91.5317,
+      "grid_position": 9,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 12,
+            "compound": "H"
+          },
+          {
+            "lap": 28,
+            "compound": "M"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "GAS",
+      "base_lap_time": 91.3497,
+      "grid_position": 12,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 12,
+            "compound": "H"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "PIA",
+      "base_lap_time": 90.6795,
+      "grid_position": 6,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 27,
+            "compound": "H"
+          },
+          {
+            "lap": 40,
+            "compound": "M"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "ZHO",
+      "base_lap_time": 91.7221,
+      "grid_position": 19,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 28,
+            "compound": "S"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "RIC",
+      "base_lap_time": 91.8093,
+      "grid_position": 20,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "H",
+        "stops": [
+          {
+            "lap": 28,
+            "compound": "M"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "BOT",
+      "base_lap_time": 91.7574,
+      "grid_position": 16,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "S",
+        "stops": [
+          {
+            "lap": 11,
+            "compound": "H"
+          },
+          {
+            "lap": 29,
+            "compound": "M"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "STR",
+      "base_lap_time": 91.5382,
+      "grid_position": 11,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 11,
+            "compound": "H"
+          },
+          {
+            "lap": 28,
+            "compound": "M"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "ALB",
+      "base_lap_time": 91.4777,
+      "grid_position": 14,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 10,
+            "compound": "H"
+          },
+          {
+            "lap": 53,
+            "compound": "S"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "MAG",
+      "base_lap_time": 91.6156,
+      "grid_position": 18,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "H",
+        "stops": [
+          {
+            "lap": 22,
+            "compound": "M"
+          },
+          {
+            "lap": 28,
+            "compound": "M"
+          },
+          {
+            "lap": 31,
+            "compound": "M"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    },
+    {
+      "code": "SAR",
+      "base_lap_time": 91.5428,
+      "grid_position": 17,
+      "dnf_probability": 0.05,
+      "strategy": {
+        "start": "M",
+        "stops": [
+          {
+            "lap": 11,
+            "compound": "H"
+          }
+        ]
+      },
+      "strategy_source": "observed"
+    }
+  ],
+  "calibration": {
+    "clean_laps": 934,
+    "green_pit_stops_measured": 12,
+    "sc_pit_stops_measured": 12,
+    "strategy_sources": {
+      "observed": 20,
+      "reconstructed": 0,
+      "fallback": 0
+    },
+    "track_severity": 0.5,
+    "warnings": [
+      "constraint active: quad SOFT pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: low-confidence race fit; using pooled estimate",
+      "track severity 0.50x the season median (from 2 race-fitted compound(s)); applied to estimated compounds"
+    ]
+  }
+}

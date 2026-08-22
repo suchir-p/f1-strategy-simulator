@@ -1,0 +1,146 @@
+{
+  "event_name": "Chinese Grand Prix",
+  "total_laps": 56,
+  "results": [
+    {
+      "Abbreviation": "VER",
+      "GridPosition": 1.0,
+      "Position": 1.0,
+      "ClassifiedPosition": "1",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "NOR",
+      "GridPosition": 4.0,
+      "Position": 2.0,
+      "ClassifiedPosition": "2",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "PER",
+      "GridPosition": 2.0,
+      "Position": 3.0,
+      "ClassifiedPosition": "3",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "LEC",
+      "GridPosition": 6.0,
+      "Position": 4.0,
+      "ClassifiedPosition": "4",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "SAI",
+      "GridPosition": 7.0,
+      "Position": 5.0,
+      "ClassifiedPosition": "5",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "RUS",
+      "GridPosition": 8.0,
+      "Position": 6.0,
+      "ClassifiedPosition": "6",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "ALO",
+      "GridPosition": 3.0,
+      "Position": 7.0,
+      "ClassifiedPosition": "7",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "PIA",
+      "GridPosition": 5.0,
+      "Position": 8.0,
+      "ClassifiedPosition": "8",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "HAM",
+      "GridPosition": 18.0,
+      "Position": 9.0,
+      "ClassifiedPosition": "9",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "HUL",
+      "GridPosition": 9.0,
+      "Position": 10.0,
+      "ClassifiedPosition": "10",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "OCO",
+      "GridPosition": 13.0,
+      "Position": 11.0,
+      "ClassifiedPosition": "11",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "ALB",
+      "GridPosition": 14.0,
+      "Position": 12.0,
+      "ClassifiedPosition": "12",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "GAS",
+      "GridPosition": 15.0,
+      "Position": 13.0,
+      "ClassifiedPosition": "13",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "ZHO",
+      "GridPosition": 16.0,
+      "Position": 14.0,
+      "ClassifiedPosition": "14",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "STR",
+      "GridPosition": 11.0,
+      "Position": 15.0,
+      "ClassifiedPosition": "15",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "MAG",
+      "GridPosition": 17.0,
+      "Position": 16.0,
+      "ClassifiedPosition": "16",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "SAR",
+      "GridPosition": 20.0,
+      "Position": 17.0,
+      "ClassifiedPosition": "17",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "RIC",
+      "GridPosition": 12.0,
+      "Position": 18.0,
+      "ClassifiedPosition": "R",
+      "Status": "Retired"
+    },
+    {
+      "Abbreviation": "TSU",
+      "GridPosition": 19.0,
+      "Position": 19.0,
+      "ClassifiedPosition": "R",
+      "Status": "Retired"
+    },
+    {
+      "Abbreviation": "BOT",
+      "GridPosition": 10.0,
+      "Position": 20.0,
+      "ClassifiedPosition": "R",
+      "Status": "Retired"
+    }
+  ]
+}
