@@ -1,0 +1,106 @@
+{
+  "event_name": "Las Vegas Grand Prix",
+  "session": "Qualifying",
+  "drivers": [
+    {
+      "driver": "RUS",
+      "position": 1,
+      "best_lap": 92.312
+    },
+    {
+      "driver": "SAI",
+      "position": 2,
+      "best_lap": 92.41
+    },
+    {
+      "driver": "GAS",
+      "position": 3,
+      "best_lap": 92.664
+    },
+    {
+      "driver": "LEC",
+      "position": 4,
+      "best_lap": 92.783
+    },
+    {
+      "driver": "VER",
+      "position": 5,
+      "best_lap": 92.797
+    },
+    {
+      "driver": "NOR",
+      "position": 6,
+      "best_lap": 93.008
+    },
+    {
+      "driver": "TSU",
+      "position": 7,
+      "best_lap": 93.029
+    },
+    {
+      "driver": "PIA",
+      "position": 8,
+      "best_lap": 93.024
+    },
+    {
+      "driver": "HUL",
+      "position": 9,
+      "best_lap": 93.062
+    },
+    {
+      "driver": "HAM",
+      "position": 10,
+      "best_lap": 92.567
+    },
+    {
+      "driver": "OCO",
+      "position": 11,
+      "best_lap": 93.221
+    },
+    {
+      "driver": "MAG",
+      "position": 12,
+      "best_lap": 93.297
+    },
+    {
+      "driver": "ZHO",
+      "position": 13,
+      "best_lap": 93.566
+    },
+    {
+      "driver": "COL",
+      "position": 14,
+      "best_lap": 93.746
+    },
+    {
+      "driver": "LAW",
+      "position": 15,
+      "best_lap": 94.087
+    },
+    {
+      "driver": "PER",
+      "position": 16,
+      "best_lap": 94.155
+    },
+    {
+      "driver": "ALO",
+      "position": 17,
+      "best_lap": 94.258
+    },
+    {
+      "driver": "ALB",
+      "position": 18,
+      "best_lap": 94.425
+    },
+    {
+      "driver": "BOT",
+      "position": 19,
+      "best_lap": 94.43
+    },
+    {
+      "driver": "STR",
+      "position": 20,
+      "best_lap": 94.484
+    }
+  ]
+}

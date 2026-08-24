@@ -1,0 +1,106 @@
+{
+  "event_name": "United States Grand Prix",
+  "session": "Qualifying",
+  "drivers": [
+    {
+      "driver": "NOR",
+      "position": 1,
+      "best_lap": 92.33
+    },
+    {
+      "driver": "VER",
+      "position": 2,
+      "best_lap": 92.361
+    },
+    {
+      "driver": "SAI",
+      "position": 3,
+      "best_lap": 92.652
+    },
+    {
+      "driver": "LEC",
+      "position": 4,
+      "best_lap": 92.74
+    },
+    {
+      "driver": "PIA",
+      "position": 5,
+      "best_lap": 92.95
+    },
+    {
+      "driver": "RUS",
+      "position": 6,
+      "best_lap": 92.974
+    },
+    {
+      "driver": "GAS",
+      "position": 7,
+      "best_lap": 93.018
+    },
+    {
+      "driver": "ALO",
+      "position": 8,
+      "best_lap": 93.309
+    },
+    {
+      "driver": "MAG",
+      "position": 9,
+      "best_lap": 93.474
+    },
+    {
+      "driver": "PER",
+      "position": 10,
+      "best_lap": 93.02
+    },
+    {
+      "driver": "TSU",
+      "position": 11,
+      "best_lap": 93.506
+    },
+    {
+      "driver": "HUL",
+      "position": 12,
+      "best_lap": 93.544
+    },
+    {
+      "driver": "OCO",
+      "position": 13,
+      "best_lap": 93.597
+    },
+    {
+      "driver": "STR",
+      "position": 14,
+      "best_lap": 93.759
+    },
+    {
+      "driver": "LAW",
+      "position": 15,
+      "best_lap": 93.339
+    },
+    {
+      "driver": "ALB",
+      "position": 16,
+      "best_lap": 94.051
+    },
+    {
+      "driver": "COL",
+      "position": 17,
+      "best_lap": 94.062
+    },
+    {
+      "driver": "BOT",
+      "position": 18,
+      "best_lap": 94.152
+    },
+    {
+      "driver": "HAM",
+      "position": 19,
+      "best_lap": 94.154
+    },
+    {
+      "driver": "ZHO",
+      "position": 20,
+      "best_lap": 94.228
+    }
+  ]
+}

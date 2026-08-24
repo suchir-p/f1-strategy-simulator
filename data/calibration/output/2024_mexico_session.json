@@ -1,0 +1,146 @@
+{
+  "event_name": "Mexico City Grand Prix",
+  "total_laps": 71,
+  "results": [
+    {
+      "Abbreviation": "SAI",
+      "GridPosition": 1.0,
+      "Position": 1.0,
+      "ClassifiedPosition": "1",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "NOR",
+      "GridPosition": 3.0,
+      "Position": 2.0,
+      "ClassifiedPosition": "2",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "LEC",
+      "GridPosition": 4.0,
+      "Position": 3.0,
+      "ClassifiedPosition": "3",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "HAM",
+      "GridPosition": 6.0,
+      "Position": 4.0,
+      "ClassifiedPosition": "4",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "RUS",
+      "GridPosition": 5.0,
+      "Position": 5.0,
+      "ClassifiedPosition": "5",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "VER",
+      "GridPosition": 2.0,
+      "Position": 6.0,
+      "ClassifiedPosition": "6",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "MAG",
+      "GridPosition": 7.0,
+      "Position": 7.0,
+      "ClassifiedPosition": "7",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "PIA",
+      "GridPosition": 17.0,
+      "Position": 8.0,
+      "ClassifiedPosition": "8",
+      "Status": "Finished"
+    },
+    {
+      "Abbreviation": "HUL",
+      "GridPosition": 10.0,
+      "Position": 9.0,
+      "ClassifiedPosition": "9",
+      "Status": "Lapped"
+    },
+    {
+      "Abbreviation": "GAS",
+      "GridPosition": 8.0,
+      "Position": 10.0,
+      "ClassifiedPosition": "10",
+      "Status": "Lapped"
+    },
+    {
+      "Abbreviation": "STR",
+      "GridPosition": 14.0,
+      "Position": 11.0,
+      "ClassifiedPosition": "11",
+      "Status": "Lapped"
+    },
+    {
+      "Abbreviation": "COL",
+      "GridPosition": 16.0,
+      "Position": 12.0,
+      "ClassifiedPosition": "12",
+      "Status": "Lapped"
+    },
+    {
+      "Abbreviation": "OCO",
+      "GridPosition": 0.0,
+      "Position": 13.0,
+      "ClassifiedPosition": "13",
+      "Status": "Lapped"
+    },
+    {
+      "Abbreviation": "BOT",
+      "GridPosition": 15.0,
+      "Position": 14.0,
+      "ClassifiedPosition": "14",
+      "Status": "Lapped"
+    },
+    {
+      "Abbreviation": "ZHO",
+      "GridPosition": 19.0,
+      "Position": 15.0,
+      "ClassifiedPosition": "15",
+      "Status": "Lapped"
+    },
+    {
+      "Abbreviation": "LAW",
+      "GridPosition": 12.0,
+      "Position": 16.0,
+      "ClassifiedPosition": "16",
+      "Status": "Lapped"
+    },
+    {
+      "Abbreviation": "PER",
+      "GridPosition": 18.0,
+      "Position": 17.0,
+      "ClassifiedPosition": "17",
+      "Status": "Lapped"
+    },
+    {
+      "Abbreviation": "ALO",
+      "GridPosition": 13.0,
+      "Position": 18.0,
+      "ClassifiedPosition": "R",
+      "Status": "Retired"
+    },
+    {
+      "Abbreviation": "ALB",
+      "GridPosition": 9.0,
+      "Position": 19.0,
+      "ClassifiedPosition": "R",
+      "Status": "Retired"
+    },
+    {
+      "Abbreviation": "TSU",
+      "GridPosition": 11.0,
+      "Position": 20.0,
+      "ClassifiedPosition": "R",
+      "Status": "Retired"
+    }
+  ]
+}

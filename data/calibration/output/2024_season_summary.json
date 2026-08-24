@@ -1,0 +1,552 @@
+[
+  {
+    "race": "Bahrain",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_bahrain",
+    "clean_laps": 1006,
+    "lap_sigma": 0.45985004806162655,
+    "strategy_sources": {
+      "observed": 20,
+      "reconstructed": 0,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "race",
+      "medium": "pooled",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "MEDIUM: not fitted on this race; using pooled estimate",
+      "track severity 2.10x the season median (from 2 race-fitted compound(s)); applied to estimated compounds"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Saudi Arabia",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_saudi_arabia",
+    "clean_laps": 801,
+    "lap_sigma": 0.6923649984087861,
+    "strategy_sources": {
+      "observed": 18,
+      "reconstructed": 2,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "pooled",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 4,
+    "warnings": [
+      "constraint active: step 1 pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: low-confidence race fit; using pooled estimate",
+      "track severity 0.59x the season median (from 2 race-fitted compound(s)); applied to estimated compounds",
+      "STR: reconstructed strategy (one compound in 6 laps; added a stop on lap 6)",
+      "GAS: reconstructed strategy (one compound in 1 laps; added a stop on lap 1)",
+      "GAS: too few clean laps; base pace set to field median + 1.0 s"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Australia",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_australia",
+    "clean_laps": 840,
+    "lap_sigma": 0.5584429078801145,
+    "strategy_sources": {
+      "observed": 18,
+      "reconstructed": 1,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "fallback",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "SOFT: only 12 clean laps (< 20); not fitted on this race",
+      "constraint active: lin HARD pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: not fitted on this race; using fallback estimate",
+      "track severity 1.05x the season median (from 2 race-fitted compound(s)); applied to estimated compounds",
+      "VER: reconstructed strategy (one compound in 4 laps; added a stop on lap 4)"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Japan",
+    "status": "ok",
+    "note": "lap-1 red flag: free tire change at the restart",
+    "stem": "2024_japan",
+    "clean_laps": 758,
+    "lap_sigma": 0.6357663799753948,
+    "strategy_sources": {
+      "observed": 18,
+      "reconstructed": 2,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "pooled",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "constraint active: step 1 pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad HARD pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: low-confidence race fit; using pooled estimate",
+      "track severity 1.83x the season median (from 2 race-fitted compound(s)); applied to estimated compounds",
+      "RIC: reconstructed strategy (one compound in 1 laps; added a stop on lap 1)",
+      "RIC: too few clean laps; base pace set to field median + 1.0 s",
+      "ALB: reconstructed strategy (one compound in 1 laps; added a stop on lap 1)",
+      "ALB: too few clean laps; base pace set to field median + 1.0 s"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "China",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_china",
+    "clean_laps": 744,
+    "lap_sigma": 0.48029386411259384,
+    "strategy_sources": {
+      "observed": 19,
+      "reconstructed": 1,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "pooled",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 9,
+    "warnings": [
+      "constraint active: step 1 pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: step 2 pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad SOFT pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad HARD pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: low-confidence race fit; using pooled estimate",
+      "track severity 2.55x the season median (from 2 race-fitted compound(s)); applied to estimated compounds",
+      "RIC: reconstructed strategy (one compound in 33 laps; added a stop on lap 33)"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Miami",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_miami",
+    "clean_laps": 934,
+    "lap_sigma": 0.46707731708667655,
+    "strategy_sources": {
+      "observed": 20,
+      "reconstructed": 0,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "pooled",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 5,
+    "warnings": [
+      "constraint active: quad SOFT pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: low-confidence race fit; using pooled estimate",
+      "track severity 0.50x the season median (from 2 race-fitted compound(s)); applied to estimated compounds"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Emilia Romagna",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_emilia_romagna",
+    "clean_laps": 1151,
+    "lap_sigma": 0.6214403738341052,
+    "strategy_sources": {
+      "observed": 20,
+      "reconstructed": 0,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "fallback",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "SOFT: only 13 clean laps (< 20); not fitted on this race",
+      "constraint active: quad MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: not fitted on this race; using fallback estimate",
+      "track severity 1.00x the season median (from 2 race-fitted compound(s)); applied to estimated compounds"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Spain",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_spain",
+    "clean_laps": 1205,
+    "lap_sigma": 0.6162035078669132,
+    "strategy_sources": {
+      "observed": 20,
+      "reconstructed": 0,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "race",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "constraint active: step 1 pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Austria",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_austria",
+    "clean_laps": 1244,
+    "lap_sigma": 0.4508812152371605,
+    "strategy_sources": {
+      "observed": 20,
+      "reconstructed": 0,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "fallback",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "SOFT: only 6 clean laps (< 20); not fitted on this race",
+      "constraint active: quad MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad HARD pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: not fitted on this race; using fallback estimate",
+      "track severity 1.23x the season median (from 2 race-fitted compound(s)); applied to estimated compounds"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Hungary",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_hungary",
+    "clean_laps": 1233,
+    "lap_sigma": 0.7533001423349943,
+    "strategy_sources": {
+      "observed": 20,
+      "reconstructed": 0,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "fallback",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "constraint active: step 2 pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad SOFT pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: low-confidence race fit; using fallback estimate",
+      "track severity 1.32x the season median (from 2 race-fitted compound(s)); applied to estimated compounds"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Belgium",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_belgium",
+    "clean_laps": 734,
+    "lap_sigma": 0.5080393988327174,
+    "strategy_sources": {
+      "observed": 17,
+      "reconstructed": 3,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "pooled",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "constraint active: step 2 pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad SOFT pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad HARD pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: low-confidence race fit; using pooled estimate",
+      "track severity 1.27x the season median (from 2 race-fitted compound(s)); applied to estimated compounds",
+      "ALO: reconstructed strategy (one compound in 44 laps; added a stop on lap 43)",
+      "STR: reconstructed strategy (one compound in 44 laps; added a stop on lap 43)",
+      "ZHO: reconstructed strategy (one compound in 5 laps; added a stop on lap 5)"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Netherlands",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_netherlands",
+    "clean_laps": 1353,
+    "lap_sigma": 0.5550891957048293,
+    "strategy_sources": {
+      "observed": 20,
+      "reconstructed": 0,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "race",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "constraint active: step 2 pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad HARD pinned at 0 (the unconstrained fit wanted a physically impossible value)"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Italy",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_italy",
+    "clean_laps": 926,
+    "lap_sigma": 0.585478050057569,
+    "strategy_sources": {
+      "observed": 19,
+      "reconstructed": 1,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "fallback",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "SOFT: only 1 clean laps (< 20); not fitted on this race",
+      "constraint active: step 1 pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: not fitted on this race; using fallback estimate",
+      "track severity 0.80x the season median (from 2 race-fitted compound(s)); applied to estimated compounds",
+      "TSU: reconstructed strategy (one compound in 7 laps; added a stop on lap 7)"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Azerbaijan",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_azerbaijan",
+    "clean_laps": 853,
+    "lap_sigma": 0.7266144231913162,
+    "strategy_sources": {
+      "observed": 20,
+      "reconstructed": 0,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "fallback",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "constraint active: lin MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad HARD pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: not fitted on this race; using fallback estimate",
+      "track severity 0.96x the season median (from 2 race-fitted compound(s)); applied to estimated compounds"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Singapore",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_singapore",
+    "clean_laps": 1109,
+    "lap_sigma": 0.6846957278896428,
+    "strategy_sources": {
+      "observed": 20,
+      "reconstructed": 0,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "fallback",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "constraint active: lin MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: low-confidence race fit; using fallback estimate",
+      "track severity 0.93x the season median (from 2 race-fitted compound(s)); applied to estimated compounds"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "United States",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_united_states",
+    "clean_laps": 880,
+    "lap_sigma": 0.6095869452578867,
+    "strategy_sources": {
+      "observed": 19,
+      "reconstructed": 1,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "pooled",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 4,
+    "warnings": [
+      "SOFT: only 3 clean laps (< 20); not fitted on this race",
+      "constraint active: quad MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: not fitted on this race; using pooled estimate",
+      "track severity 0.71x the season median (from 2 race-fitted compound(s)); applied to estimated compounds",
+      "HAM: reconstructed strategy (one compound in 2 laps; added a stop on lap 2)",
+      "HAM: too few clean laps; base pace set to field median + 1.0 s"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Mexico",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_mexico",
+    "clean_laps": 1055,
+    "lap_sigma": 0.5784332811595851,
+    "strategy_sources": {
+      "observed": 17,
+      "reconstructed": 3,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "fallback",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 6,
+    "warnings": [
+      "SOFT: only 6 clean laps (< 20); not fitted on this race",
+      "constraint active: quad MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: not fitted on this race; using fallback estimate",
+      "track severity 0.75x the season median (from 2 race-fitted compound(s)); applied to estimated compounds",
+      "ALO: reconstructed strategy (one compound in 15 laps; added a stop on lap 15)",
+      "ALB: reconstructed strategy (one compound in 1 laps; added a stop on lap 1)",
+      "ALB: too few clean laps; base pace set to field median + 1.0 s",
+      "TSU: reconstructed strategy (one compound in 1 laps; added a stop on lap 1)",
+      "TSU: too few clean laps; base pace set to field median + 1.0 s"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Las Vegas",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_las_vegas",
+    "clean_laps": 821,
+    "lap_sigma": 0.7423881812011196,
+    "strategy_sources": {
+      "observed": 20,
+      "reconstructed": 0,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "fallback",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "SOFT: only 5 clean laps (< 20); not fitted on this race",
+      "constraint active: lin MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: not fitted on this race; using fallback estimate",
+      "track severity 3.00x the season median (from 2 race-fitted compound(s)); applied to estimated compounds"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Qatar",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_qatar",
+    "clean_laps": 679,
+    "lap_sigma": 0.6304533760569743,
+    "strategy_sources": {
+      "observed": 18,
+      "reconstructed": 2,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "pooled",
+      "medium": "pooled",
+      "hard": "pooled"
+    },
+    "safety_car_laps": 13,
+    "warnings": [
+      "constraint active: step 1 pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: lin MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: lin HARD pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "MEDIUM: fitted wear after 20 laps is 0.00 s, outside (0.2, 8.0); treated as low confidence",
+      "HARD: fitted wear after 20 laps is 0.00 s, outside (0.2, 8.0); treated as low confidence",
+      "SOFT: low-confidence race fit; using pooled estimate",
+      "MEDIUM: low-confidence race fit; using pooled estimate",
+      "HARD: low-confidence race fit; using pooled estimate",
+      "COL: reconstructed strategy (one compound in 1 laps; added a stop on lap 1)",
+      "COL: too few clean laps; base pace set to field median + 1.0 s",
+      "OCO: reconstructed strategy (one compound in 1 laps; added a stop on lap 1)",
+      "OCO: too few clean laps; base pace set to field median + 1.0 s"
+    ],
+    "qualifying": true
+  },
+  {
+    "race": "Abu Dhabi",
+    "status": "ok",
+    "note": "",
+    "stem": "2024_abu_dhabi",
+    "clean_laps": 883,
+    "lap_sigma": 0.4409690032621826,
+    "strategy_sources": {
+      "observed": 19,
+      "reconstructed": 1,
+      "fallback": 0
+    },
+    "tire_confidence": {
+      "soft": "fallback",
+      "medium": "race",
+      "hard": "race"
+    },
+    "safety_car_laps": 0,
+    "warnings": [
+      "constraint active: quad SOFT pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "constraint active: quad MEDIUM pinned at 0 (the unconstrained fit wanted a physically impossible value)",
+      "SOFT: low-confidence race fit; using fallback estimate",
+      "track severity 1.12x the season median (from 2 race-fitted compound(s)); applied to estimated compounds",
+      "PER: reconstructed strategy (one compound in 1 laps; added a stop on lap 1)",
+      "PER: too few clean laps; base pace set to field median + 1.0 s"
+    ],
+    "qualifying": true
+  }
+]
