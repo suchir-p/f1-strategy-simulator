@@ -1,0 +1,642 @@
+[
+  {
+    "race": "2024 Bahrain Grand Prix",
+    "drivers_compared": 20,
+    "spearman_sim": 0.9639097744360903,
+    "spearman_grid": 0.8857142857142857,
+    "mae_sim": 1.1050999999999997,
+    "mae_grid": 2.3,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 20,
+    "spearman_sim_observed": 0.9639097744360903,
+    "mae_sim_observed": 1.1050999999999997,
+    "biggest_misses": [
+      {
+        "driver": "HUL",
+        "simulated_mean": 11.46,
+        "actual": 16,
+        "grid": 10
+      },
+      {
+        "driver": "BOT",
+        "simulated_mean": 16.65,
+        "actual": 19,
+        "grid": 16
+      },
+      {
+        "driver": "ZHO",
+        "simulated_mean": 13.34,
+        "actual": 11,
+        "grid": 17
+      }
+    ]
+  },
+  {
+    "race": "2024 Saudi Arabian Grand Prix",
+    "drivers_compared": 18,
+    "spearman_sim": 0.8575851393188855,
+    "spearman_grid": 0.8947368421052632,
+    "mae_sim": 2.472,
+    "mae_grid": 2.1666666666666665,
+    "coverage_p05_p95": 0.9444444444444444,
+    "drivers_observed": 18,
+    "spearman_sim_observed": 0.8575851393188855,
+    "mae_sim_observed": 2.472,
+    "biggest_misses": [
+      {
+        "driver": "OCO",
+        "simulated_mean": 17.14,
+        "actual": 13,
+        "grid": 17
+      },
+      {
+        "driver": "ZHO",
+        "simulated_mean": 13.88,
+        "actual": 18,
+        "grid": 20
+      },
+      {
+        "driver": "NOR",
+        "simulated_mean": 4.47,
+        "actual": 8,
+        "grid": 6
+      }
+    ]
+  },
+  {
+    "race": "2024 Australian Grand Prix",
+    "drivers_compared": 16,
+    "spearman_sim": 0.9470588235294117,
+    "spearman_grid": 0.9,
+    "mae_sim": 1.5056562500000001,
+    "mae_grid": 2.4375,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 16,
+    "spearman_sim_observed": 0.9470588235294117,
+    "mae_sim_observed": 1.5056562500000001,
+    "biggest_misses": [
+      {
+        "driver": "MAG",
+        "simulated_mean": 13.19,
+        "actual": 10,
+        "grid": 14
+      },
+      {
+        "driver": "STR",
+        "simulated_mean": 8.61,
+        "actual": 6,
+        "grid": 9
+      },
+      {
+        "driver": "ALB",
+        "simulated_mean": 13.5,
+        "actual": 11,
+        "grid": 12
+      }
+    ]
+  },
+  {
+    "race": "2024 Japanese Grand Prix",
+    "drivers_compared": 17,
+    "spearman_sim": 0.9901960784313726,
+    "spearman_grid": 0.9313725490196079,
+    "mae_sim": 0.9247941176470588,
+    "mae_grid": 1.6470588235294117,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 17,
+    "spearman_sim_observed": 0.9901960784313726,
+    "mae_sim_observed": 0.9247941176470588,
+    "biggest_misses": [
+      {
+        "driver": "SAR",
+        "simulated_mean": 14.03,
+        "actual": 17,
+        "grid": 19
+      },
+      {
+        "driver": "GAS",
+        "simulated_mean": 17.76,
+        "actual": 16,
+        "grid": 17
+      },
+      {
+        "driver": "PER",
+        "simulated_mean": 3.37,
+        "actual": 2,
+        "grid": 2
+      }
+    ]
+  },
+  {
+    "race": "2024 Chinese Grand Prix",
+    "drivers_compared": 17,
+    "spearman_sim": 0.9534313725490197,
+    "spearman_grid": 0.8553921568627451,
+    "mae_sim": 1.2166470588235294,
+    "mae_grid": 2.4705882352941178,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 17,
+    "spearman_sim_observed": 0.9534313725490197,
+    "mae_sim_observed": 1.2166470588235294,
+    "biggest_misses": [
+      {
+        "driver": "STR",
+        "simulated_mean": 11.22,
+        "actual": 15,
+        "grid": 11
+      },
+      {
+        "driver": "HAM",
+        "simulated_mean": 11.59,
+        "actual": 9,
+        "grid": 18
+      },
+      {
+        "driver": "MAG",
+        "simulated_mean": 18.04,
+        "actual": 16,
+        "grid": 17
+      }
+    ]
+  },
+  {
+    "race": "2024 Miami Grand Prix",
+    "drivers_compared": 19,
+    "spearman_sim": 0.9105263157894737,
+    "spearman_grid": 0.8052631578947368,
+    "mae_sim": 1.7590263157894739,
+    "mae_grid": 2.789473684210526,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 19,
+    "spearman_sim_observed": 0.9105263157894737,
+    "mae_sim_observed": 1.7590263157894739,
+    "biggest_misses": [
+      {
+        "driver": "PIA",
+        "simulated_mean": 8.65,
+        "actual": 13,
+        "grid": 6
+      },
+      {
+        "driver": "ALO",
+        "simulated_mean": 13.0,
+        "actual": 9,
+        "grid": 15
+      },
+      {
+        "driver": "MAG",
+        "simulated_mean": 15.38,
+        "actual": 19,
+        "grid": 18
+      }
+    ]
+  },
+  {
+    "race": "2024 Emilia Romagna Grand Prix",
+    "drivers_compared": 19,
+    "spearman_sim": 0.9894736842105263,
+    "spearman_grid": 0.9105263157894737,
+    "mae_sim": 0.7680526315789473,
+    "mae_grid": 1.894736842105263,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 19,
+    "spearman_sim_observed": 0.9894736842105263,
+    "mae_sim_observed": 0.7680526315789473,
+    "biggest_misses": [
+      {
+        "driver": "VER",
+        "simulated_mean": 3.1,
+        "actual": 1,
+        "grid": 1
+      },
+      {
+        "driver": "ALO",
+        "simulated_mean": 17.31,
+        "actual": 19,
+        "grid": 20
+      },
+      {
+        "driver": "SAR",
+        "simulated_mean": 15.46,
+        "actual": 17,
+        "grid": 19
+      }
+    ]
+  },
+  {
+    "race": "2024 Spanish Grand Prix",
+    "drivers_compared": 20,
+    "spearman_sim": 0.9909774436090225,
+    "spearman_grid": 0.9473684210526315,
+    "mae_sim": 0.82395,
+    "mae_grid": 1.5,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 20,
+    "spearman_sim_observed": 0.9909774436090225,
+    "mae_sim_observed": 0.82395,
+    "biggest_misses": [
+      {
+        "driver": "VER",
+        "simulated_mean": 3.04,
+        "actual": 1,
+        "grid": 2
+      },
+      {
+        "driver": "ALB",
+        "simulated_mean": 16.17,
+        "actual": 18,
+        "grid": 20
+      },
+      {
+        "driver": "PIA",
+        "simulated_mean": 5.71,
+        "actual": 7,
+        "grid": 9
+      }
+    ]
+  },
+  {
+    "race": "2024 Austrian Grand Prix",
+    "drivers_compared": 20,
+    "spearman_sim": 0.675187969924812,
+    "spearman_grid": 0.6406015037593985,
+    "mae_sim": 2.40535,
+    "mae_grid": 3.2,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 20,
+    "spearman_sim_observed": 0.675187969924812,
+    "mae_sim_observed": 2.40535,
+    "biggest_misses": [
+      {
+        "driver": "NOR",
+        "simulated_mean": 2.82,
+        "actual": 20,
+        "grid": 2
+      },
+      {
+        "driver": "HUL",
+        "simulated_mean": 9.41,
+        "actual": 6,
+        "grid": 9
+      },
+      {
+        "driver": "RUS",
+        "simulated_mean": 4.26,
+        "actual": 1,
+        "grid": 3
+      }
+    ]
+  },
+  {
+    "race": "2024 Hungarian Grand Prix",
+    "drivers_compared": 19,
+    "spearman_sim": 0.9929824561403509,
+    "spearman_grid": 0.787719298245614,
+    "mae_sim": 0.7612631578947368,
+    "mae_grid": 2.6315789473684212,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 19,
+    "spearman_sim_observed": 0.9929824561403509,
+    "mae_sim_observed": 0.7612631578947368,
+    "biggest_misses": [
+      {
+        "driver": "PIA",
+        "simulated_mean": 2.99,
+        "actual": 1,
+        "grid": 2
+      },
+      {
+        "driver": "HAM",
+        "simulated_mean": 4.62,
+        "actual": 3,
+        "grid": 5
+      },
+      {
+        "driver": "TSU",
+        "simulated_mean": 10.28,
+        "actual": 9,
+        "grid": 10
+      }
+    ]
+  },
+  {
+    "race": "2024 Belgian Grand Prix",
+    "drivers_compared": 18,
+    "spearman_sim": 0.9318885448916409,
+    "spearman_grid": 0.8679050567595459,
+    "mae_sim": 1.413777777777778,
+    "mae_grid": 2.3333333333333335,
+    "coverage_p05_p95": 0.8888888888888888,
+    "drivers_observed": 16,
+    "spearman_sim_observed": 0.9882352941176471,
+    "mae_sim_observed": 1.0032187500000003,
+    "biggest_misses": [
+      {
+        "driver": "STR",
+        "simulated_mean": 15.84,
+        "actual": 11,
+        "grid": 15
+      },
+      {
+        "driver": "ALO",
+        "simulated_mean": 12.56,
+        "actual": 8,
+        "grid": 8
+      },
+      {
+        "driver": "HAM",
+        "simulated_mean": 3.43,
+        "actual": 1,
+        "grid": 3
+      }
+    ]
+  },
+  {
+    "race": "2024 Dutch Grand Prix",
+    "drivers_compared": 20,
+    "spearman_sim": 0.9939849624060151,
+    "spearman_grid": 0.8466165413533835,
+    "mae_sim": 0.8097500000000004,
+    "mae_grid": 2.5,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 20,
+    "spearman_sim_observed": 0.9939849624060151,
+    "mae_sim_observed": 0.8097500000000004,
+    "biggest_misses": [
+      {
+        "driver": "MAG",
+        "simulated_mean": 15.72,
+        "actual": 18,
+        "grid": 20
+      },
+      {
+        "driver": "VER",
+        "simulated_mean": 4.11,
+        "actual": 2,
+        "grid": 2
+      },
+      {
+        "driver": "LEC",
+        "simulated_mean": 4.51,
+        "actual": 3,
+        "grid": 6
+      }
+    ]
+  },
+  {
+    "race": "2024 Italian Grand Prix",
+    "drivers_compared": 19,
+    "spearman_sim": 0.980701754385965,
+    "spearman_grid": 0.8842105263157894,
+    "mae_sim": 1.0417894736842106,
+    "mae_grid": 2.0,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 19,
+    "spearman_sim_observed": 0.980701754385965,
+    "mae_sim_observed": 1.0417894736842106,
+    "biggest_misses": [
+      {
+        "driver": "HUL",
+        "simulated_mean": 13.69,
+        "actual": 17,
+        "grid": 10
+      },
+      {
+        "driver": "RIC",
+        "simulated_mean": 10.98,
+        "actual": 13,
+        "grid": 12
+      },
+      {
+        "driver": "LEC",
+        "simulated_mean": 2.84,
+        "actual": 1,
+        "grid": 4
+      }
+    ]
+  },
+  {
+    "race": "2024 Azerbaijan Grand Prix",
+    "drivers_compared": 16,
+    "spearman_sim": 0.9705882352941176,
+    "spearman_grid": 0.8058823529411765,
+    "mae_sim": 2.18990625,
+    "mae_grid": 2.8125,
+    "coverage_p05_p95": 0.9375,
+    "drivers_observed": 16,
+    "spearman_sim_observed": 0.9705882352941176,
+    "mae_sim_observed": 2.18990625,
+    "biggest_misses": [
+      {
+        "driver": "VER",
+        "simulated_mean": 8.85,
+        "actual": 5,
+        "grid": 6
+      },
+      {
+        "driver": "ALO",
+        "simulated_mean": 9.25,
+        "actual": 6,
+        "grid": 7
+      },
+      {
+        "driver": "COL",
+        "simulated_mean": 11.12,
+        "actual": 8,
+        "grid": 8
+      }
+    ]
+  },
+  {
+    "race": "2024 Singapore Grand Prix",
+    "drivers_compared": 18,
+    "spearman_sim": 0.9917440660474717,
+    "spearman_grid": 0.9009287925696594,
+    "mae_sim": 0.7535555555555554,
+    "mae_grid": 2.2222222222222223,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 18,
+    "spearman_sim_observed": 0.9917440660474717,
+    "mae_sim_observed": 0.7535555555555554,
+    "biggest_misses": [
+      {
+        "driver": "HAM",
+        "simulated_mean": 7.91,
+        "actual": 6,
+        "grid": 3
+      },
+      {
+        "driver": "SAI",
+        "simulated_mean": 8.44,
+        "actual": 7,
+        "grid": 10
+      },
+      {
+        "driver": "COL",
+        "simulated_mean": 9.66,
+        "actual": 11,
+        "grid": 12
+      }
+    ]
+  },
+  {
+    "race": "2024 United States Grand Prix",
+    "drivers_compared": 19,
+    "spearman_sim": 0.9912280701754386,
+    "spearman_grid": 0.6017543859649123,
+    "mae_sim": 0.8453157894736844,
+    "mae_grid": 3.8421052631578947,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 19,
+    "spearman_sim_observed": 0.9912280701754386,
+    "mae_sim_observed": 0.8453157894736844,
+    "biggest_misses": [
+      {
+        "driver": "TSU",
+        "simulated_mean": 12.28,
+        "actual": 14,
+        "grid": 10
+      },
+      {
+        "driver": "LEC",
+        "simulated_mean": 2.64,
+        "actual": 1,
+        "grid": 4
+      },
+      {
+        "driver": "SAI",
+        "simulated_mean": 3.46,
+        "actual": 2,
+        "grid": 3
+      }
+    ]
+  },
+  {
+    "race": "2024 Mexico City Grand Prix",
+    "drivers_compared": 17,
+    "spearman_sim": 0.9901960784313726,
+    "spearman_grid": 0.8480392156862745,
+    "mae_sim": 0.7925882352941175,
+    "mae_grid": 2.588235294117647,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 17,
+    "spearman_sim_observed": 0.9901960784313726,
+    "mae_sim_observed": 0.7925882352941175,
+    "biggest_misses": [
+      {
+        "driver": "LAW",
+        "simulated_mean": 13.91,
+        "actual": 16,
+        "grid": 12
+      },
+      {
+        "driver": "HAM",
+        "simulated_mean": 5.66,
+        "actual": 4,
+        "grid": 6
+      },
+      {
+        "driver": "LEC",
+        "simulated_mean": 4.45,
+        "actual": 3,
+        "grid": 4
+      }
+    ]
+  },
+  {
+    "race": "2024 Las Vegas Grand Prix",
+    "drivers_compared": 18,
+    "spearman_sim": 0.9731682146542827,
+    "spearman_grid": 0.8224974200206399,
+    "mae_sim": 1.1759444444444445,
+    "mae_grid": 2.2777777777777777,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 18,
+    "spearman_sim_observed": 0.9731682146542827,
+    "mae_sim_observed": 1.1759444444444445,
+    "biggest_misses": [
+      {
+        "driver": "STR",
+        "simulated_mean": 11.88,
+        "actual": 15,
+        "grid": 18
+      },
+      {
+        "driver": "HUL",
+        "simulated_mean": 11.06,
+        "actual": 8,
+        "grid": 9
+      },
+      {
+        "driver": "TSU",
+        "simulated_mean": 10.96,
+        "actual": 9,
+        "grid": 7
+      }
+    ]
+  },
+  {
+    "race": "2024 Qatar Grand Prix",
+    "drivers_compared": 15,
+    "spearman_sim": 0.925,
+    "spearman_grid": 0.7428571428571429,
+    "mae_sim": 1.8081,
+    "mae_grid": 2.7333333333333334,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 15,
+    "spearman_sim_observed": 0.925,
+    "mae_sim_observed": 1.8081,
+    "biggest_misses": [
+      {
+        "driver": "ZHO",
+        "simulated_mean": 11.79,
+        "actual": 8,
+        "grid": 12
+      },
+      {
+        "driver": "GAS",
+        "simulated_mean": 8.54,
+        "actual": 5,
+        "grid": 11
+      },
+      {
+        "driver": "ALB",
+        "simulated_mean": 17.73,
+        "actual": 15,
+        "grid": 16
+      }
+    ]
+  },
+  {
+    "race": "2024 Abu Dhabi Grand Prix",
+    "drivers_compared": 16,
+    "spearman_sim": 0.9477559593054691,
+    "spearman_grid": 0.42058823529411765,
+    "mae_sim": 1.2061250000000001,
+    "mae_grid": 3.6875,
+    "coverage_p05_p95": 1.0,
+    "drivers_observed": 16,
+    "spearman_sim_observed": 0.9477559593054691,
+    "mae_sim_observed": 1.2061250000000001,
+    "biggest_misses": [
+      {
+        "driver": "PIA",
+        "simulated_mean": 7.58,
+        "actual": 10,
+        "grid": 2
+      },
+      {
+        "driver": "ALB",
+        "simulated_mean": 13.25,
+        "actual": 11,
+        "grid": 18
+      },
+      {
+        "driver": "LEC",
+        "simulated_mean": 5.12,
+        "actual": 3,
+        "grid": 19
+      }
+    ]
+  }
+]
