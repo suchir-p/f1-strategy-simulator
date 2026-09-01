@@ -1,0 +1,2656 @@
+{
+  "train": [
+    "bahrain",
+    "saudi_arabia",
+    "australia",
+    "japan",
+    "china",
+    "miami",
+    "emilia_romagna",
+    "spain",
+    "austria",
+    "hungary",
+    "belgium",
+    "netherlands",
+    "italy",
+    "azerbaijan",
+    "singapore"
+  ],
+  "test": [
+    "united_states",
+    "mexico",
+    "las_vegas",
+    "qatar",
+    "abu_dhabi"
+  ],
+  "models": {
+    "quali": {
+      "sigma_race": 0.2,
+      "loo": {
+        "0.1": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9172932330827068,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 2.031060215580302,
+            "mae_grid": 2.3,
+            "coverage": 0.75,
+            "log_score": -2.508634714906598
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8307533539731682,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.4857962742529045,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 0.6666666666666666,
+            "log_score": -3.078253243288538
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.9029411764705882,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 1.8489218274844705,
+            "mae_grid": 2.4375,
+            "coverage": 0.875,
+            "log_score": -2.409866421806277
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9313725490196079,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.3142371456431474,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -1.767189064215061
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9264705882352942,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.4606058556361265,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 0.9411764705882353,
+            "log_score": -1.9671337079951945
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 1.6907336685552876,
+            "mae_grid": 2.789473684210526,
+            "coverage": 0.8947368421052632,
+            "log_score": -2.2502813036180846
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9421052631578948,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 1.3164558124571137,
+            "mae_grid": 1.894736842105263,
+            "coverage": 0.7894736842105263,
+            "log_score": -1.977557016129789
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9518796992481203,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 1.5068669092700606,
+            "mae_grid": 1.5,
+            "coverage": 0.85,
+            "log_score": -2.1041260987896373
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.6646616541353383,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 2.419995536460965,
+            "mae_grid": 3.2,
+            "coverage": 0.95,
+            "log_score": -2.329152691135711
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.7842105263157895,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 2.8107404258724342,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 0.631578947368421,
+            "log_score": -3.314922757727371
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9380804953560371,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 1.5550407275111795,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 0.7777777777777778,
+            "log_score": -2.595676773968654
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.7473684210526316,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 3.3868426440264074,
+            "mae_grid": 2.5,
+            "coverage": 0.45,
+            "log_score": -4.136356440816488
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9052631578947369,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 1.6878499195468404,
+            "mae_grid": 2.0,
+            "coverage": 0.8947368421052632,
+            "log_score": -2.095273886664971
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8382352941176471,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.308471821965488,
+            "mae_grid": 2.8125,
+            "coverage": 0.75,
+            "log_score": -3.043439962662888
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9422084623323014,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 1.266638599608328,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 0.8333333333333334,
+            "log_score": -1.860869311411294
+          }
+        ],
+        "0.2": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9172932330827068,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 2.1188171521214243,
+            "mae_grid": 2.3,
+            "coverage": 0.85,
+            "log_score": -2.345812069696849
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8307533539731682,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.4537623029324394,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 0.7777777777777778,
+            "log_score": -2.5135958249060786
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.9029411764705882,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 1.7979665577588926,
+            "mae_grid": 2.4375,
+            "coverage": 0.875,
+            "log_score": -2.1826656283303363
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9313725490196079,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.3292894107174555,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -1.839948069232903
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9264705882352942,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.4500092950960592,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 0.9411764705882353,
+            "log_score": -1.9792928337053326
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 1.750377043651839,
+            "mae_grid": 2.789473684210526,
+            "coverage": 0.8947368421052632,
+            "log_score": -2.209522527251163
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9421052631578948,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 1.3880071982762352,
+            "mae_grid": 1.894736842105263,
+            "coverage": 0.9473684210526315,
+            "log_score": -1.9441537500715202
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9518796992481203,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 1.5360128051919837,
+            "mae_grid": 1.5,
+            "coverage": 0.95,
+            "log_score": -2.0181821982549466
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.6691729323308271,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 2.55425804061975,
+            "mae_grid": 3.2,
+            "coverage": 0.95,
+            "log_score": -2.405788922156461
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.7842105263157895,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 2.9132346142073953,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 0.7894736842105263,
+            "log_score": -3.027121499245414
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9339525283797729,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 1.6205818789454307,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 0.8333333333333334,
+            "log_score": -2.4258047068163773
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.7473684210526316,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 3.3613270319043034,
+            "mae_grid": 2.5,
+            "coverage": 0.5,
+            "log_score": -3.8221258957414266
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9052631578947369,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 1.695804151976498,
+            "mae_grid": 2.0,
+            "coverage": 0.9473684210526315,
+            "log_score": -2.1049505682622303
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8470588235294118,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.264482215725505,
+            "mae_grid": 2.8125,
+            "coverage": 0.75,
+            "log_score": -2.723305850139996
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9422084623323014,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 1.3431630153139418,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 1.0,
+            "log_score": -1.9702486564165231
+          }
+        ],
+        "0.3": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.918796992481203,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 2.2457057018734297,
+            "mae_grid": 2.3,
+            "coverage": 0.95,
+            "log_score": -2.336110076967061
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8307533539731682,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.4260821281389906,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 0.9444444444444444,
+            "log_score": -2.3522417160831606
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.9029411764705882,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 1.7771459667245282,
+            "mae_grid": 2.4375,
+            "coverage": 1.0,
+            "log_score": -2.2043446472355495
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9313725490196079,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.3834131078489005,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -1.9651865127186032
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9215686274509804,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.3815889869229625,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 0.9411764705882353,
+            "log_score": -2.1034262710695293
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 1.9358663081746035,
+            "mae_grid": 2.789473684210526,
+            "coverage": 0.9473684210526315,
+            "log_score": -2.279367476711488
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9421052631578948,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 1.476564853674023,
+            "mae_grid": 1.894736842105263,
+            "coverage": 1.0,
+            "log_score": -2.047600208737679
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9518796992481203,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 1.629370721934182,
+            "mae_grid": 1.5,
+            "coverage": 1.0,
+            "log_score": -2.154275098733955
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.6586466165413534,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 2.7879017132410233,
+            "mae_grid": 3.2,
+            "coverage": 0.95,
+            "log_score": -2.565325793128032
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.7771929824561403,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 3.0368131941406076,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 0.7894736842105263,
+            "log_score": -2.8752939056184807
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9339525283797729,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 1.7458466388853695,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 0.8888888888888888,
+            "log_score": -2.3300137662169202
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.7383458646616541,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 3.363595500655967,
+            "mae_grid": 2.5,
+            "coverage": 0.65,
+            "log_score": -3.4865225945717553
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9052631578947369,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 1.7555823956886347,
+            "mae_grid": 2.0,
+            "coverage": 0.9473684210526315,
+            "log_score": -2.1838614387106907
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8470588235294118,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.223235707083473,
+            "mae_grid": 2.8125,
+            "coverage": 0.75,
+            "log_score": -2.6496056246807753
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9422084623323014,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 1.4718484101119111,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 1.0,
+            "log_score": -2.0518744127561397
+          }
+        ],
+        "0.45": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.918796992481203,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 2.532823166058781,
+            "mae_grid": 2.3,
+            "coverage": 0.95,
+            "log_score": -2.431279882533634
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8307533539731682,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.430660110621256,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 1.0,
+            "log_score": -2.3703931098826883
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.9029411764705882,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 1.7600232463833423,
+            "mae_grid": 2.4375,
+            "coverage": 1.0,
+            "log_score": -2.3392865789520454
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9313725490196079,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.5153981904643923,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -2.130245238101977
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9240196078431373,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.3611624673693639,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 1.0,
+            "log_score": -2.2248497161431153
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 2.264406267066728,
+            "mae_grid": 2.789473684210526,
+            "coverage": 1.0,
+            "log_score": -2.4592340822952976
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9385964912280702,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 1.6705849073935803,
+            "mae_grid": 1.894736842105263,
+            "coverage": 1.0,
+            "log_score": -2.222362001073059
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9518796992481203,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 1.8973220152279162,
+            "mae_grid": 1.5,
+            "coverage": 1.0,
+            "log_score": -2.301687648514002
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.6541353383458647,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 3.1184484697442647,
+            "mae_grid": 3.2,
+            "coverage": 0.95,
+            "log_score": -2.692399718482899
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.7771929824561403,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 3.194393803260765,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 0.7894736842105263,
+            "log_score": -2.723543542785337
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9318885448916409,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 1.9244059231333113,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 1.0,
+            "log_score": -2.326907460608263
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.7383458646616541,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 3.4693327498203117,
+            "mae_grid": 2.5,
+            "coverage": 0.8,
+            "log_score": -3.0463776906291025
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9052631578947369,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 1.9671797170515712,
+            "mae_grid": 2.0,
+            "coverage": 1.0,
+            "log_score": -2.341271582563646
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8470588235294118,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.231537239051189,
+            "mae_grid": 2.8125,
+            "coverage": 0.875,
+            "log_score": -2.5814832334355797
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9422084623323014,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 1.7335103879115075,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 1.0,
+            "log_score": -2.2192558118054957
+          }
+        ],
+        "0.6": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9097744360902256,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 2.8407999742890633,
+            "mae_grid": 2.3,
+            "coverage": 0.95,
+            "log_score": -2.511529494887366
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8286893704850361,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.4624124047130826,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 1.0,
+            "log_score": -2.4266415861866264
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.9029411764705882,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 1.836884612619522,
+            "mae_grid": 2.4375,
+            "coverage": 1.0,
+            "log_score": -2.432765187047638
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.928921568627451,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.6878068462138989,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -2.28943907223591
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9240196078431373,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.5286620199278464,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 1.0,
+            "log_score": -2.363356597112699
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.8947368421052632,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 2.649293701101289,
+            "mae_grid": 2.789473684210526,
+            "coverage": 1.0,
+            "log_score": -2.537556348773046
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9385964912280702,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 1.9566383019747273,
+            "mae_grid": 1.894736842105263,
+            "coverage": 1.0,
+            "log_score": -2.328083813742258
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9413533834586466,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 2.2416288453257747,
+            "mae_grid": 1.5,
+            "coverage": 1.0,
+            "log_score": -2.4034195744998024
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.6541353383458647,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 3.477831262312596,
+            "mae_grid": 3.2,
+            "coverage": 0.95,
+            "log_score": -2.7442776394309982
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.7771929824561403,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 3.2784419251658146,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 0.8421052631578947,
+            "log_score": -2.641649566022722
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9318885448916409,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 2.0155783595054846,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 1.0,
+            "log_score": -2.3336141394828274
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.7383458646616541,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 3.541270925676976,
+            "mae_grid": 2.5,
+            "coverage": 0.8,
+            "log_score": -2.920070525727108
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9052631578947369,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 2.256562229435954,
+            "mae_grid": 2.0,
+            "coverage": 1.0,
+            "log_score": -2.472198306774712
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8470588235294118,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.2711987447113047,
+            "mae_grid": 2.8125,
+            "coverage": 0.9375,
+            "log_score": -2.496869184963584
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.936016511867905,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 2.031143611947579,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 1.0,
+            "log_score": -2.3435281877066503
+          }
+        ],
+        "0.8": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.912781954887218,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 3.1807181888351566,
+            "mae_grid": 2.3,
+            "coverage": 0.95,
+            "log_score": -2.610352069570874
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8369453044375645,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.614398725797169,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 1.0,
+            "log_score": -2.475452492639224
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.9029411764705882,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 2.0951120688349456,
+            "mae_grid": 2.4375,
+            "coverage": 1.0,
+            "log_score": -2.527938928620337
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.928921568627451,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.9686140947241622,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -2.4005810143804833
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9191176470588235,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.9002995562836251,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 1.0,
+            "log_score": -2.4273720295175774
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.8912280701754386,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 3.058667939242356,
+            "mae_grid": 2.789473684210526,
+            "coverage": 1.0,
+            "log_score": -2.619100932387341
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9350877192982456,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 2.3496170984425127,
+            "mae_grid": 1.894736842105263,
+            "coverage": 1.0,
+            "log_score": -2.441464877609126
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9413533834586466,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 2.7017872284062734,
+            "mae_grid": 1.5,
+            "coverage": 1.0,
+            "log_score": -2.493528833730821
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.6541353383458647,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 3.815668558569081,
+            "mae_grid": 3.2,
+            "coverage": 0.95,
+            "log_score": -2.802524191853782
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.775438596491228,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 3.3682761955826854,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 1.0,
+            "log_score": -2.6283349967908056
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9318885448916409,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 2.1539124023626584,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 1.0,
+            "log_score": -2.3927127133277164
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.7383458646616541,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 3.6086187935550207,
+            "mae_grid": 2.5,
+            "coverage": 0.85,
+            "log_score": -2.8267636630404818
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9035087719298246,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 2.5902929437121442,
+            "mae_grid": 2.0,
+            "coverage": 1.0,
+            "log_score": -2.591779560261314
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8470588235294118,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.3159761544788164,
+            "mae_grid": 2.8125,
+            "coverage": 1.0,
+            "log_score": -2.5637588375599023
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9339525283797729,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 2.3539677523399685,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 1.0,
+            "log_score": -2.463324438295509
+          }
+        ],
+        "1.0": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.912781954887218,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 3.4642889945093023,
+            "mae_grid": 2.3,
+            "coverage": 0.95,
+            "log_score": -2.6630183217735084
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8369453044375645,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.7791985988551438,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 1.0,
+            "log_score": -2.5502061321963287
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.9029411764705882,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 2.3100739027882335,
+            "mae_grid": 2.4375,
+            "coverage": 1.0,
+            "log_score": -2.5293722069790876
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9313725490196079,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 2.2321434073946054,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -2.47540665373727
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9215686274509804,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 2.2225413522982578,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 1.0,
+            "log_score": -2.538859552730717
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.8859649122807017,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 3.3435118505512813,
+            "mae_grid": 2.789473684210526,
+            "coverage": 1.0,
+            "log_score": -2.647440538181327
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9333333333333333,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 2.6737953250384607,
+            "mae_grid": 1.894736842105263,
+            "coverage": 1.0,
+            "log_score": -2.4957460578688946
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9413533834586466,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 3.0625756804605726,
+            "mae_grid": 1.5,
+            "coverage": 0.95,
+            "log_score": -2.596079411345034
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.6481203007518797,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 4.028323249522801,
+            "mae_grid": 3.2,
+            "coverage": 0.95,
+            "log_score": -2.9101275546317686
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.775438596491228,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 3.478314367735823,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 1.0,
+            "log_score": -2.6478037556668794
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9318885448916409,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 2.346286349564641,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 1.0,
+            "log_score": -2.4183999435906163
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.7413533834586465,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 3.6398592568149857,
+            "mae_grid": 2.5,
+            "coverage": 0.85,
+            "log_score": -2.766454633023785
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.8929824561403509,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 2.871567470870358,
+            "mae_grid": 2.0,
+            "coverage": 1.0,
+            "log_score": -2.6004342005165313
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8470588235294118,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.377943782986882,
+            "mae_grid": 2.8125,
+            "coverage": 1.0,
+            "log_score": -2.6291355242978107
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9339525283797729,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 2.6686045116707096,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 1.0,
+            "log_score": -2.5016701807176767
+          }
+        ]
+      },
+      "test": [
+        {
+          "race": "2024 United States Grand Prix",
+          "drivers": 19,
+          "spearman": 0.8649122807017544,
+          "spearman_grid": 0.6017543859649123,
+          "spearman_quali": 0.8614035087719298,
+          "mae": 2.337277999247776,
+          "mae_grid": 3.8421052631578947,
+          "coverage": 0.8947368421052632,
+          "log_score": -2.4976199492365243
+        },
+        {
+          "race": "2024 Mexico City Grand Prix",
+          "drivers": 17,
+          "spearman": 0.8774509803921569,
+          "spearman_grid": 0.8480392156862745,
+          "spearman_quali": 0.8529411764705882,
+          "mae": 1.823068696408069,
+          "mae_grid": 2.588235294117647,
+          "coverage": 0.9411764705882353,
+          "log_score": -2.2041083209878494
+        },
+        {
+          "race": "2024 Las Vegas Grand Prix",
+          "drivers": 18,
+          "spearman": 0.8617131062951496,
+          "spearman_grid": 0.8224974200206399,
+          "spearman_quali": 0.8761609907120743,
+          "mae": 2.1104787631792097,
+          "mae_grid": 2.2777777777777777,
+          "coverage": 0.8333333333333334,
+          "log_score": -2.309253308522903
+        },
+        {
+          "race": "2024 Qatar Grand Prix",
+          "drivers": 15,
+          "spearman": 0.8928571428571429,
+          "spearman_grid": 0.7428571428571429,
+          "spearman_quali": 0.7535714285714286,
+          "mae": 1.948503605856937,
+          "mae_grid": 2.7333333333333334,
+          "coverage": 1.0,
+          "log_score": -2.117322225301319
+        },
+        {
+          "race": "2024 Abu Dhabi Grand Prix",
+          "drivers": 16,
+          "spearman": 0.7558823529411764,
+          "spearman_grid": 0.4205882352941176,
+          "spearman_quali": 0.5823529411764705,
+          "mae": 2.40657769446799,
+          "mae_grid": 3.6875,
+          "coverage": 0.8125,
+          "log_score": -2.4767514796730055
+        }
+      ],
+      "test_observed_only": [
+        {
+          "race": "2024 United States Grand Prix",
+          "drivers": 19,
+          "spearman": 0.8649122807017544,
+          "spearman_grid": 0.6017543859649123,
+          "spearman_quali": 0.8614035087719298,
+          "mae": 2.337277999247776,
+          "mae_grid": 3.8421052631578947,
+          "coverage": 0.8947368421052632,
+          "log_score": -2.4976199492365243
+        },
+        {
+          "race": "2024 Mexico City Grand Prix",
+          "drivers": 17,
+          "spearman": 0.8774509803921569,
+          "spearman_grid": 0.8480392156862745,
+          "spearman_quali": 0.8529411764705882,
+          "mae": 1.823068696408069,
+          "mae_grid": 2.588235294117647,
+          "coverage": 0.9411764705882353,
+          "log_score": -2.2041083209878494
+        },
+        {
+          "race": "2024 Las Vegas Grand Prix",
+          "drivers": 18,
+          "spearman": 0.8617131062951496,
+          "spearman_grid": 0.8224974200206399,
+          "spearman_quali": 0.8761609907120743,
+          "mae": 2.1104787631792097,
+          "mae_grid": 2.2777777777777777,
+          "coverage": 0.8333333333333334,
+          "log_score": -2.309253308522903
+        },
+        {
+          "race": "2024 Qatar Grand Prix",
+          "drivers": 15,
+          "spearman": 0.8928571428571429,
+          "spearman_grid": 0.7428571428571429,
+          "spearman_quali": 0.7535714285714286,
+          "mae": 1.948503605856937,
+          "mae_grid": 2.7333333333333334,
+          "coverage": 1.0,
+          "log_score": -2.117322225301319
+        },
+        {
+          "race": "2024 Abu Dhabi Grand Prix",
+          "drivers": 16,
+          "spearman": 0.7558823529411764,
+          "spearman_grid": 0.4205882352941176,
+          "spearman_quali": 0.5823529411764705,
+          "mae": 2.40657769446799,
+          "mae_grid": 3.6875,
+          "coverage": 0.8125,
+          "log_score": -2.4767514796730055
+        }
+      ]
+    },
+    "quali+form": {
+      "sigma_race": 0.3,
+      "loo": {
+        "0.1": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9172932330827068,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 2.031060215580302,
+            "mae_grid": 2.3,
+            "coverage": 0.75,
+            "log_score": -2.508634714906598
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8410732714138287,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.3849361832806326,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 0.6111111111111112,
+            "log_score": -3.0594659753852986
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.95,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 1.8890325763523101,
+            "mae_grid": 2.4375,
+            "coverage": 0.75,
+            "log_score": -2.566612822273388
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9387254901960784,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.2198972623771038,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 0.9411764705882353,
+            "log_score": -1.6613409863928155
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9313725490196079,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.6198714023039988,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 0.8235294117647058,
+            "log_score": -2.2307598865387503
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.8543859649122807,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 2.143817229350321,
+            "mae_grid": 2.789473684210526,
+            "coverage": 0.6842105263157895,
+            "log_score": -2.6359328490144454
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9491228070175438,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 1.3346083467852239,
+            "mae_grid": 1.894736842105263,
+            "coverage": 0.8421052631578947,
+            "log_score": -2.069745233371751
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.8781954887218045,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 2.273242625694018,
+            "mae_grid": 1.5,
+            "coverage": 0.75,
+            "log_score": -2.868188944162699
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.6225563909774436,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 2.9379576809333576,
+            "mae_grid": 3.2,
+            "coverage": 0.7,
+            "log_score": -2.8909525464497237
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9350877192982456,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 1.490746761349096,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 0.9473684210526315,
+            "log_score": -2.1608438716391487
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8617131062951496,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 1.713932939547532,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 0.8333333333333334,
+            "log_score": -2.1787484109177386
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.825563909774436,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 2.8503441871707595,
+            "mae_grid": 2.5,
+            "coverage": 0.55,
+            "log_score": -3.86213112279448
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9228070175438596,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 1.7374327490892272,
+            "mae_grid": 2.0,
+            "coverage": 0.8421052631578947,
+            "log_score": -2.048580332131358
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8705882352941177,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.409687093327381,
+            "mae_grid": 2.8125,
+            "coverage": 0.625,
+            "log_score": -3.104986730455077
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9174406604747162,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 1.516222299925992,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 0.8333333333333334,
+            "log_score": -2.2670475289825314
+          }
+        ],
+        "0.2": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9172932330827068,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 2.1188171521214243,
+            "mae_grid": 2.3,
+            "coverage": 0.85,
+            "log_score": -2.345812069696849
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8307533539731682,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.348904266784619,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 0.8333333333333334,
+            "log_score": -2.538850940880165
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.9529411764705882,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 1.865788229188552,
+            "mae_grid": 2.4375,
+            "coverage": 0.875,
+            "log_score": -2.3223512501858634
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9387254901960784,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.2219089082766756,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -1.7698375975025378
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9215686274509804,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.5729853303105994,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 0.9411764705882353,
+            "log_score": -2.0263313831570877
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.8526315789473684,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 2.1800414054260955,
+            "mae_grid": 2.789473684210526,
+            "coverage": 0.8421052631578947,
+            "log_score": -2.4879683314689403
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.956140350877193,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 1.413690605273444,
+            "mae_grid": 1.894736842105263,
+            "coverage": 0.9473684210526315,
+            "log_score": -1.9046016270651691
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.8571428571428572,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 2.267402526968428,
+            "mae_grid": 1.5,
+            "coverage": 0.8,
+            "log_score": -2.5683123483585772
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.6225563909774436,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 2.980923706309601,
+            "mae_grid": 3.2,
+            "coverage": 0.75,
+            "log_score": -2.66621531920405
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9350877192982456,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 1.510126567797692,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 0.9473684210526315,
+            "log_score": -2.025637335171951
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8617131062951496,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 1.726017860060028,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 0.8888888888888888,
+            "log_score": -2.095003966692545
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.825563909774436,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 2.883191837711152,
+            "mae_grid": 2.5,
+            "coverage": 0.6,
+            "log_score": -3.4338538153525824
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9228070175438596,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 1.7615772126585856,
+            "mae_grid": 2.0,
+            "coverage": 0.9473684210526315,
+            "log_score": -2.0208116933237896
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8852941176470588,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.3340489759929604,
+            "mae_grid": 2.8125,
+            "coverage": 0.75,
+            "log_score": -2.606325818230294
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9174406604747162,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 1.4851161466203944,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 0.8333333333333334,
+            "log_score": -2.131213520293144
+          }
+        ],
+        "0.3": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.918796992481203,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 2.2457057018734297,
+            "mae_grid": 2.3,
+            "coverage": 0.95,
+            "log_score": -2.336110076967061
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8410732714138287,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.303498180592582,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 0.8888888888888888,
+            "log_score": -2.3128905957471138
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.9529411764705882,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 1.8155599179638697,
+            "mae_grid": 2.4375,
+            "coverage": 1.0,
+            "log_score": -2.2160265591623136
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9387254901960784,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.215649896558626,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -1.8606357568963836
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9215686274509804,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.5280105892320028,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 1.0,
+            "log_score": -2.05871511568187
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.8456140350877193,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 2.232586977533536,
+            "mae_grid": 2.789473684210526,
+            "coverage": 0.8947368421052632,
+            "log_score": -2.3759908855785334
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.956140350877193,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 1.5386275999415548,
+            "mae_grid": 1.894736842105263,
+            "coverage": 1.0,
+            "log_score": -1.9193474337895449
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.8511278195488722,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 2.2906685885282885,
+            "mae_grid": 1.5,
+            "coverage": 0.9,
+            "log_score": -2.3419696557842182
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.6225563909774436,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 3.069439536330839,
+            "mae_grid": 3.2,
+            "coverage": 0.95,
+            "log_score": -2.586662087689471
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9350877192982456,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 1.5873742676518388,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 1.0,
+            "log_score": -2.053286007980303
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8617131062951496,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 1.7461752909513801,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 0.9444444444444444,
+            "log_score": -2.1396201303595976
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.825563909774436,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 2.9110809630493066,
+            "mae_grid": 2.5,
+            "coverage": 0.65,
+            "log_score": -3.0777518369426327
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9228070175438596,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 1.7931654099578729,
+            "mae_grid": 2.0,
+            "coverage": 1.0,
+            "log_score": -2.091531393724586
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8852941176470588,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.291523459181762,
+            "mae_grid": 2.8125,
+            "coverage": 0.9375,
+            "log_score": -2.3486345012117504
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9174406604747162,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 1.4616529257550892,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 0.9444444444444444,
+            "log_score": -2.0763004460008907
+          }
+        ],
+        "0.45": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.918796992481203,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 2.532823166058781,
+            "mae_grid": 2.3,
+            "coverage": 0.95,
+            "log_score": -2.431279882533634
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8410732714138287,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.2918609755429356,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 1.0,
+            "log_score": -2.26419658649768
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.9529411764705882,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 1.7913140085560335,
+            "mae_grid": 2.4375,
+            "coverage": 1.0,
+            "log_score": -2.212018477459284
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9387254901960784,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.2423886592582882,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -1.9978159469840102
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9215686274509804,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.5327738230338088,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 1.0,
+            "log_score": -2.1555052767933516
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.8350877192982455,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 2.32841913705237,
+            "mae_grid": 2.789473684210526,
+            "coverage": 0.9473684210526315,
+            "log_score": -2.3282728050518644
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.956140350877193,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 1.6931627050848546,
+            "mae_grid": 1.894736842105263,
+            "coverage": 1.0,
+            "log_score": -2.1076901482071193
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.8511278195488722,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 2.3619295649108296,
+            "mae_grid": 1.5,
+            "coverage": 0.9,
+            "log_score": -2.2923916576307457
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.6075187969924811,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 3.229510044924519,
+            "mae_grid": 3.2,
+            "coverage": 0.95,
+            "log_score": -2.627906529993985
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9421052631578948,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 1.776723863758996,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 1.0,
+            "log_score": -2.169706680841473
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8617131062951496,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 1.78276148910001,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 1.0,
+            "log_score": -2.2408724309352372
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.825563909774436,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 2.956801988319811,
+            "mae_grid": 2.5,
+            "coverage": 0.8,
+            "log_score": -2.7836214214072568
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9228070175438596,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 1.8579505961012728,
+            "mae_grid": 2.0,
+            "coverage": 1.0,
+            "log_score": -2.214915637420678
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8852941176470588,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.2834443612559765,
+            "mae_grid": 2.8125,
+            "coverage": 1.0,
+            "log_score": -2.261370657425978
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9174406604747162,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 1.5305935170678457,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 1.0,
+            "log_score": -2.181152925842403
+          }
+        ],
+        "0.6": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.9097744360902256,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 2.8407999742890633,
+            "mae_grid": 2.3,
+            "coverage": 0.95,
+            "log_score": -2.511529494887366
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8410732714138287,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.3012027644786994,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 1.0,
+            "log_score": -2.26375153635348
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.9529411764705882,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 1.8309360864757496,
+            "mae_grid": 2.4375,
+            "coverage": 1.0,
+            "log_score": -2.314896392108152
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9338235294117647,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.3312328366188315,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -2.1582051166700054
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9215686274509804,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.5225772168601668,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 1.0,
+            "log_score": -2.246142994492099
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.8421052631578947,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 2.4336711889692624,
+            "mae_grid": 2.789473684210526,
+            "coverage": 1.0,
+            "log_score": -2.413795056435729
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.956140350877193,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 1.8664255189251129,
+            "mae_grid": 1.894736842105263,
+            "coverage": 1.0,
+            "log_score": -2.229004542569699
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.8511278195488722,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 2.444033112528961,
+            "mae_grid": 1.5,
+            "coverage": 0.95,
+            "log_score": -2.360352249779304
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.6075187969924811,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 3.3762924897887685,
+            "mae_grid": 3.2,
+            "coverage": 0.95,
+            "log_score": -2.6826799635759757
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9421052631578948,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 1.991733426511483,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 1.0,
+            "log_score": -2.2756002299005744
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8596491228070176,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 1.8515118238764192,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 1.0,
+            "log_score": -2.3509820269413897
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.825563909774436,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 3.0520751280866625,
+            "mae_grid": 2.5,
+            "coverage": 0.85,
+            "log_score": -2.6406638596928613
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9228070175438596,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 2.00868811226439,
+            "mae_grid": 2.0,
+            "coverage": 1.0,
+            "log_score": -2.3299934624944005
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8852941176470588,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.265065446839976,
+            "mae_grid": 2.8125,
+            "coverage": 1.0,
+            "log_score": -2.301543443519992
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9174406604747162,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 1.6665634768491917,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 1.0,
+            "log_score": -2.3043045036583276
+          }
+        ],
+        "0.8": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.912781954887218,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 3.1807181888351566,
+            "mae_grid": 2.3,
+            "coverage": 0.95,
+            "log_score": -2.610352069570874
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8410732714138287,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.3319651530507293,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 1.0,
+            "log_score": -2.338914373805795
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.9529411764705882,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 1.958287955721608,
+            "mae_grid": 2.4375,
+            "coverage": 1.0,
+            "log_score": -2.391098076935043
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9313725490196079,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.5567379794173695,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -2.2939334085808896
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9117647058823529,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.575979370407694,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 1.0,
+            "log_score": -2.3496850235613276
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.8368421052631578,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 2.5895221443806826,
+            "mae_grid": 2.789473684210526,
+            "coverage": 1.0,
+            "log_score": -2.5136979464501756
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9508771929824561,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 2.0911831760404227,
+            "mae_grid": 1.894736842105263,
+            "coverage": 1.0,
+            "log_score": -2.332618075770307
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.8556390977443609,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 2.587185975035541,
+            "mae_grid": 1.5,
+            "coverage": 0.95,
+            "log_score": -2.483167854717044
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.5969924812030075,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 3.6216178996044044,
+            "mae_grid": 3.2,
+            "coverage": 0.95,
+            "log_score": -2.7389313366024104
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9456140350877194,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 2.257841570024478,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 1.0,
+            "log_score": -2.413145494230316
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8575851393188855,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 2.0887628807027485,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 1.0,
+            "log_score": -2.4648950312764524
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.8210526315789474,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 3.1889873139561806,
+            "mae_grid": 2.5,
+            "coverage": 0.9,
+            "log_score": -2.6933588344159474
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9157894736842105,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 2.2637884349378896,
+            "mae_grid": 2.0,
+            "coverage": 1.0,
+            "log_score": -2.401040729021445
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8705882352941177,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.237918049229733,
+            "mae_grid": 2.8125,
+            "coverage": 1.0,
+            "log_score": -2.4161467504295002
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9174406604747162,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 1.8689226719241825,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 1.0,
+            "log_score": -2.3950245227835634
+          }
+        ],
+        "1.0": [
+          {
+            "race": "2024 Bahrain Grand Prix",
+            "drivers": 20,
+            "spearman": 0.912781954887218,
+            "spearman_grid": 0.8857142857142857,
+            "spearman_quali": 0.887218045112782,
+            "mae": 3.4642889945093023,
+            "mae_grid": 2.3,
+            "coverage": 0.95,
+            "log_score": -2.6630183217735084
+          },
+          {
+            "race": "2024 Saudi Arabian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8410732714138287,
+            "spearman_grid": 0.8947368421052632,
+            "spearman_quali": 0.8947368421052632,
+            "mae": 2.446600040451091,
+            "mae_grid": 2.1666666666666665,
+            "coverage": 1.0,
+            "log_score": -2.383996109447193
+          },
+          {
+            "race": "2024 Australian Grand Prix",
+            "drivers": 16,
+            "spearman": 0.95,
+            "spearman_grid": 0.9,
+            "spearman_quali": 0.8794117647058823,
+            "mae": 2.046654037329777,
+            "mae_grid": 2.4375,
+            "coverage": 1.0,
+            "log_score": -2.449833269540483
+          },
+          {
+            "race": "2024 Japanese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9313725490196079,
+            "spearman_grid": 0.9313725490196079,
+            "spearman_quali": 0.9313725490196079,
+            "mae": 1.832960678086126,
+            "mae_grid": 1.6470588235294117,
+            "coverage": 1.0,
+            "log_score": -2.366122675697636
+          },
+          {
+            "race": "2024 Chinese Grand Prix",
+            "drivers": 17,
+            "spearman": 0.9117647058823529,
+            "spearman_grid": 0.8553921568627451,
+            "spearman_quali": 0.8553921568627451,
+            "mae": 1.799745698293253,
+            "mae_grid": 2.4705882352941178,
+            "coverage": 1.0,
+            "log_score": -2.4200526988060047
+          },
+          {
+            "race": "2024 Miami Grand Prix",
+            "drivers": 19,
+            "spearman": 0.8350877192982455,
+            "spearman_grid": 0.8052631578947369,
+            "spearman_quali": 0.8052631578947369,
+            "mae": 2.7746230864634738,
+            "mae_grid": 2.789473684210526,
+            "coverage": 1.0,
+            "log_score": -2.5490748642406835
+          },
+          {
+            "race": "2024 Emilia Romagna Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9596491228070175,
+            "spearman_grid": 0.9105263157894736,
+            "spearman_quali": 0.8982456140350877,
+            "mae": 2.346731855619972,
+            "mae_grid": 1.894736842105263,
+            "coverage": 1.0,
+            "log_score": -2.4476697080379126
+          },
+          {
+            "race": "2024 Spanish Grand Prix",
+            "drivers": 20,
+            "spearman": 0.8511278195488722,
+            "spearman_grid": 0.9473684210526316,
+            "spearman_quali": 0.9639097744360903,
+            "mae": 2.74355928358248,
+            "mae_grid": 1.5,
+            "coverage": 0.95,
+            "log_score": -2.560595747468341
+          },
+          {
+            "race": "2024 Austrian Grand Prix",
+            "drivers": 20,
+            "spearman": 0.5939849624060151,
+            "spearman_grid": 0.6406015037593985,
+            "spearman_quali": 0.6406015037593985,
+            "mae": 3.837072843353153,
+            "mae_grid": 3.2,
+            "coverage": 0.95,
+            "log_score": -2.8105190924644994
+          },
+          {
+            "race": "2024 Hungarian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9456140350877194,
+            "spearman_grid": 0.787719298245614,
+            "spearman_quali": 0.7929824561403509,
+            "mae": 2.4855795837922012,
+            "mae_grid": 2.6315789473684212,
+            "coverage": 1.0,
+            "log_score": -2.509725159972669
+          },
+          {
+            "race": "2024 Belgian Grand Prix",
+            "drivers": 18,
+            "spearman": 0.8575851393188855,
+            "spearman_grid": 0.8679050567595459,
+            "spearman_quali": 0.9050567595459236,
+            "mae": 2.37789204950322,
+            "mae_grid": 2.3333333333333335,
+            "coverage": 1.0,
+            "log_score": -2.4854217909888163
+          },
+          {
+            "race": "2024 Dutch Grand Prix",
+            "drivers": 20,
+            "spearman": 0.8105263157894737,
+            "spearman_grid": 0.8466165413533835,
+            "spearman_quali": 0.8451127819548871,
+            "mae": 3.309221493160334,
+            "mae_grid": 2.5,
+            "coverage": 0.9,
+            "log_score": -2.6863140863983617
+          },
+          {
+            "race": "2024 Italian Grand Prix",
+            "drivers": 19,
+            "spearman": 0.9192982456140351,
+            "spearman_grid": 0.8842105263157894,
+            "spearman_quali": 0.8842105263157894,
+            "mae": 2.5296812868879495,
+            "mae_grid": 2.0,
+            "coverage": 1.0,
+            "log_score": -2.52092449220257
+          },
+          {
+            "race": "2024 Azerbaijan Grand Prix",
+            "drivers": 16,
+            "spearman": 0.8852941176470588,
+            "spearman_grid": 0.8058823529411765,
+            "spearman_quali": 0.8352941176470589,
+            "mae": 2.229558075152179,
+            "mae_grid": 2.8125,
+            "coverage": 1.0,
+            "log_score": -2.5173172407009297
+          },
+          {
+            "race": "2024 Singapore Grand Prix",
+            "drivers": 18,
+            "spearman": 0.9174406604747162,
+            "spearman_grid": 0.9009287925696594,
+            "spearman_quali": 0.9525283797729618,
+            "mae": 2.1632808113511337,
+            "mae_grid": 2.2222222222222223,
+            "coverage": 1.0,
+            "log_score": -2.483224904531843
+          }
+        ]
+      },
+      "test": [
+        {
+          "race": "2024 United States Grand Prix",
+          "drivers": 19,
+          "spearman": 0.9035087719298246,
+          "spearman_grid": 0.6017543859649123,
+          "spearman_quali": 0.8614035087719298,
+          "mae": 1.8292120172042126,
+          "mae_grid": 3.8421052631578947,
+          "coverage": 0.9473684210526315,
+          "log_score": -2.157385579543883
+        },
+        {
+          "race": "2024 Mexico City Grand Prix",
+          "drivers": 17,
+          "spearman": 0.8553921568627451,
+          "spearman_grid": 0.8480392156862745,
+          "spearman_quali": 0.8529411764705882,
+          "mae": 1.9401171367471624,
+          "mae_grid": 2.588235294117647,
+          "coverage": 0.8823529411764706,
+          "log_score": -2.2940097097997136
+        },
+        {
+          "race": "2024 Las Vegas Grand Prix",
+          "drivers": 18,
+          "spearman": 0.8720330237358102,
+          "spearman_grid": 0.8224974200206399,
+          "spearman_quali": 0.8761609907120743,
+          "mae": 1.9730158076820474,
+          "mae_grid": 2.2777777777777777,
+          "coverage": 1.0,
+          "log_score": -2.2247637203325192
+        },
+        {
+          "race": "2024 Qatar Grand Prix",
+          "drivers": 15,
+          "spearman": 0.8142857142857143,
+          "spearman_grid": 0.7428571428571429,
+          "spearman_quali": 0.7535714285714286,
+          "mae": 2.597771759936668,
+          "mae_grid": 2.7333333333333334,
+          "coverage": 0.9333333333333333,
+          "log_score": -2.5158275857518886
+        },
+        {
+          "race": "2024 Abu Dhabi Grand Prix",
+          "drivers": 16,
+          "spearman": 0.9117647058823529,
+          "spearman_grid": 0.4205882352941176,
+          "spearman_quali": 0.5823529411764705,
+          "mae": 1.7461283199948037,
+          "mae_grid": 3.6875,
+          "coverage": 0.9375,
+          "log_score": -2.1235265776943097
+        }
+      ],
+      "test_observed_only": [
+        {
+          "race": "2024 United States Grand Prix",
+          "drivers": 19,
+          "spearman": 0.9035087719298246,
+          "spearman_grid": 0.6017543859649123,
+          "spearman_quali": 0.8614035087719298,
+          "mae": 1.8292120172042126,
+          "mae_grid": 3.8421052631578947,
+          "coverage": 0.9473684210526315,
+          "log_score": -2.157385579543883
+        },
+        {
+          "race": "2024 Mexico City Grand Prix",
+          "drivers": 17,
+          "spearman": 0.8553921568627451,
+          "spearman_grid": 0.8480392156862745,
+          "spearman_quali": 0.8529411764705882,
+          "mae": 1.9401171367471624,
+          "mae_grid": 2.588235294117647,
+          "coverage": 0.8823529411764706,
+          "log_score": -2.2940097097997136
+        },
+        {
+          "race": "2024 Las Vegas Grand Prix",
+          "drivers": 18,
+          "spearman": 0.8720330237358102,
+          "spearman_grid": 0.8224974200206399,
+          "spearman_quali": 0.8761609907120743,
+          "mae": 1.9730158076820474,
+          "mae_grid": 2.2777777777777777,
+          "coverage": 1.0,
+          "log_score": -2.2247637203325192
+        },
+        {
+          "race": "2024 Qatar Grand Prix",
+          "drivers": 15,
+          "spearman": 0.8142857142857143,
+          "spearman_grid": 0.7428571428571429,
+          "spearman_quali": 0.7535714285714286,
+          "mae": 2.597771759936668,
+          "mae_grid": 2.7333333333333334,
+          "coverage": 0.9333333333333333,
+          "log_score": -2.5158275857518886
+        },
+        {
+          "race": "2024 Abu Dhabi Grand Prix",
+          "drivers": 16,
+          "spearman": 0.9117647058823529,
+          "spearman_grid": 0.4205882352941176,
+          "spearman_quali": 0.5823529411764705,
+          "mae": 1.7461283199948037,
+          "mae_grid": 3.6875,
+          "coverage": 0.9375,
+          "log_score": -2.1235265776943097
+        }
+      ]
+    }
+  },
+  "shared_estimates": {
+    "pace_model": {
+      "b_quali": 0.669614105574856,
+      "b1_quali": 0.2722181764868211,
+      "b2_form": 0.689941600077574,
+      "level_ratio": 1.0455998023017723
+    },
+    "tires": {
+      "wear": {
+        "C3": {
+          "deg_linear": 0.043795,
+          "deg_quadratic": 0.000503,
+          "max_stint_laps": 36,
+          "races": 14
+        },
+        "C1": {
+          "deg_linear": 0.08302000000000001,
+          "deg_quadratic": 9.15e-05,
+          "max_stint_laps": 33,
+          "races": 4
+        },
+        "C2": {
+          "deg_linear": 0.05463,
+          "deg_quadratic": 0.0,
+          "max_stint_laps": 34,
+          "races": 7
+        },
+        "C4": {
+          "deg_linear": 0.04313,
+          "deg_quadratic": 0.001014,
+          "max_stint_laps": 29,
+          "races": 7
+        }
+      },
+      "steps_harder_minus_softer": {
+        "C1-C2": 0.1275,
+        "C2-C3": 0.0251,
+        "C3-C4": 0.0914,
+        "C4-C5": 0.0655,
+        "C5-C6": 0.0655,
+        "C6-C7": 0.0655
+      }
+    },
+    "rates": {
+      "sc_per_lap": 0.003579952267303103,
+      "dnf": 0.07692307692307693
+    },
+    "scalars": {
+      "fuel": 0.06043,
+      "lap_sigma": 0.5855
+    }
+  }
+}
