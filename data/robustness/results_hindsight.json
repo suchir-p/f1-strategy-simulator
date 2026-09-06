@@ -1,0 +1,484 @@
+[
+  {
+    "race": "2024 Italian Grand Prix",
+    "driver": "LEC",
+    "actual": "M-15-H",
+    "recommended": "M-23-H",
+    "robust": true,
+    "low_confidence_tires": true,
+    "recommended_notes": [
+      "laps 1-23 on medium (C4): 23-lap stint is longer than the 21 laps observed"
+    ],
+    "variants": [
+      {
+        "variant": "base",
+        "winner": "M-23-H",
+        "winner_mean": 3.953333333333333,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 9,
+        "actual_gap": 0.34,
+        "actual_tied_or_best": false,
+        "candidates": 615
+      },
+      {
+        "variant": "wear -20%",
+        "winner": "M-20-H",
+        "winner_mean": 3.82,
+        "base_winner_rank": 2,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 8,
+        "actual_gap": 0.22333333333333333,
+        "actual_tied_or_best": false,
+        "candidates": 615
+      },
+      {
+        "variant": "wear +20%",
+        "winner": "M-23-H",
+        "winner_mean": 4.096666666666667,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 17,
+        "actual_gap": 0.43,
+        "actual_tied_or_best": false,
+        "candidates": 615
+      },
+      {
+        "variant": "no safety cars",
+        "winner": "H-35-S",
+        "winner_mean": 3.7866666666666666,
+        "base_winner_rank": 5,
+        "base_winner_gap": 0.03333333333333333,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 12,
+        "actual_gap": 0.2966666666666667,
+        "actual_tied_or_best": false,
+        "candidates": 615
+      },
+      {
+        "variant": "busy safety cars",
+        "winner": "M-23-H",
+        "winner_mean": 3.953333333333333,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 9,
+        "actual_gap": 0.34,
+        "actual_tied_or_best": false,
+        "candidates": 615
+      },
+      {
+        "variant": "pit loss -2 s",
+        "winner": "M-23-H",
+        "winner_mean": 3.99,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 9,
+        "actual_gap": 0.36,
+        "actual_tied_or_best": false,
+        "candidates": 615
+      },
+      {
+        "variant": "pit loss +2 s",
+        "winner": "M-23-H",
+        "winner_mean": 3.8833333333333333,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 8,
+        "actual_gap": 0.3,
+        "actual_tied_or_best": false,
+        "candidates": 615
+      }
+    ]
+  },
+  {
+    "race": "2024 Bahrain Grand Prix",
+    "driver": "LEC",
+    "actual": "S-11-H-34-H",
+    "recommended": "S-14-H-35-H",
+    "robust": true,
+    "low_confidence_tires": false,
+    "recommended_notes": [],
+    "variants": [
+      {
+        "variant": "base",
+        "winner": "S-14-H-35-H",
+        "winner_mean": 5.693333333333333,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 5,
+        "actual_gap": 0.03333333333333333,
+        "actual_tied_or_best": true,
+        "candidates": 1087
+      },
+      {
+        "variant": "wear -20%",
+        "winner": "S-11-H-32-H",
+        "winner_mean": 5.623333333333333,
+        "base_winner_rank": 3,
+        "base_winner_gap": 0.05,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 5,
+        "actual_gap": 0.056666666666666664,
+        "actual_tied_or_best": true,
+        "candidates": 1087
+      },
+      {
+        "variant": "wear +20%",
+        "winner": "S-14-H-35-H",
+        "winner_mean": 5.57,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 15,
+        "actual_gap": 0.15666666666666668,
+        "actual_tied_or_best": false,
+        "candidates": 1087
+      },
+      {
+        "variant": "no safety cars",
+        "winner": "S-14-H-32-H",
+        "winner_mean": 5.486666666666666,
+        "base_winner_rank": 8,
+        "base_winner_gap": 0.043333333333333335,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 55,
+        "actual_gap": 0.17,
+        "actual_tied_or_best": false,
+        "candidates": 1087
+      },
+      {
+        "variant": "busy safety cars",
+        "winner": "S-14-H-32-H",
+        "winner_mean": 5.666666666666667,
+        "base_winner_rank": 2,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 4,
+        "actual_gap": 0.04,
+        "actual_tied_or_best": true,
+        "candidates": 1087
+      },
+      {
+        "variant": "pit loss -2 s",
+        "winner": "S-14-H-35-H",
+        "winner_mean": 5.63,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 11,
+        "actual_gap": 0.11666666666666667,
+        "actual_tied_or_best": false,
+        "candidates": 1087
+      },
+      {
+        "variant": "pit loss +2 s",
+        "winner": "S-14-H-32-H",
+        "winner_mean": 5.666666666666667,
+        "base_winner_rank": 3,
+        "base_winner_gap": 0.02666666666666667,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 6,
+        "actual_gap": 0.06333333333333334,
+        "actual_tied_or_best": true,
+        "candidates": 1087
+      }
+    ]
+  },
+  {
+    "race": "2024 Hungarian Grand Prix",
+    "driver": "LEC",
+    "actual": "M-23-H-40-M",
+    "recommended": "M-26-H-47-M",
+    "robust": true,
+    "low_confidence_tires": false,
+    "recommended_notes": [],
+    "variants": [
+      {
+        "variant": "base",
+        "winner": "M-26-H-47-M",
+        "winner_mean": 5.176666666666667,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 94,
+        "actual_gap": 0.33,
+        "actual_tied_or_best": false,
+        "candidates": 875
+      },
+      {
+        "variant": "wear -20%",
+        "winner": "H-20-M-44-M",
+        "winner_mean": 5.236666666666666,
+        "base_winner_rank": 8,
+        "base_winner_gap": 0.06,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 69,
+        "actual_gap": 0.23666666666666666,
+        "actual_tied_or_best": false,
+        "candidates": 875
+      },
+      {
+        "variant": "wear +20%",
+        "winner": "H-26-M-47-M",
+        "winner_mean": 5.0633333333333335,
+        "base_winner_rank": 2,
+        "base_winner_gap": 0.02666666666666667,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 126,
+        "actual_gap": 0.52,
+        "actual_tied_or_best": false,
+        "candidates": 875
+      },
+      {
+        "variant": "no safety cars",
+        "winner": "M-23-M-47-H",
+        "winner_mean": 5.176666666666667,
+        "base_winner_rank": 6,
+        "base_winner_gap": 0.04,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 46,
+        "actual_gap": 0.19,
+        "actual_tied_or_best": false,
+        "candidates": 875
+      },
+      {
+        "variant": "busy safety cars",
+        "winner": "M-26-H-47-M",
+        "winner_mean": 5.1433333333333335,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 86,
+        "actual_gap": 0.33,
+        "actual_tied_or_best": false,
+        "candidates": 875
+      },
+      {
+        "variant": "pit loss -2 s",
+        "winner": "H-23-M-47-M",
+        "winner_mean": 5.153333333333333,
+        "base_winner_rank": 3,
+        "base_winner_gap": 0.02666666666666667,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 107,
+        "actual_gap": 0.37,
+        "actual_tied_or_best": false,
+        "candidates": 875
+      },
+      {
+        "variant": "pit loss +2 s",
+        "winner": "H-23-M-47-M",
+        "winner_mean": 5.196666666666666,
+        "base_winner_rank": 3,
+        "base_winner_gap": 0.02666666666666667,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 78,
+        "actual_gap": 0.2966666666666667,
+        "actual_tied_or_best": false,
+        "candidates": 875
+      }
+    ]
+  },
+  {
+    "race": "2024 Spanish Grand Prix",
+    "driver": "NOR",
+    "actual": "S-23-M-47-S",
+    "recommended": "S-17-M-41-M",
+    "robust": false,
+    "low_confidence_tires": false,
+    "recommended_notes": [],
+    "variants": [
+      {
+        "variant": "base",
+        "winner": "S-17-M-41-M",
+        "winner_mean": 4.266666666666667,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 35,
+        "actual_gap": 0.10333333333333333,
+        "actual_tied_or_best": true,
+        "candidates": 1409
+      },
+      {
+        "variant": "wear -20%",
+        "winner": "S-17-M-41-M",
+        "winner_mean": 4.236666666666666,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 105,
+        "actual_gap": 0.25666666666666665,
+        "actual_tied_or_best": false,
+        "candidates": 1409
+      },
+      {
+        "variant": "wear +20%",
+        "winner": "M-23-S-41-M",
+        "winner_mean": 4.176666666666667,
+        "base_winner_rank": 16,
+        "base_winner_gap": 0.08333333333333333,
+        "base_winner_tied_or_best": false,
+        "actual_rank": 28,
+        "actual_gap": 0.12666666666666668,
+        "actual_tied_or_best": false,
+        "candidates": 1409
+      },
+      {
+        "variant": "no safety cars",
+        "winner": "M-23-M-44-S",
+        "winner_mean": 4.166666666666667,
+        "base_winner_rank": 7,
+        "base_winner_gap": 0.02666666666666667,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 37,
+        "actual_gap": 0.09666666666666666,
+        "actual_tied_or_best": false,
+        "candidates": 1409
+      },
+      {
+        "variant": "busy safety cars",
+        "winner": "M-23-S-41-M",
+        "winner_mean": 4.216666666666667,
+        "base_winner_rank": 2,
+        "base_winner_gap": 0.01,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 39,
+        "actual_gap": 0.12333333333333334,
+        "actual_tied_or_best": false,
+        "candidates": 1409
+      },
+      {
+        "variant": "pit loss -2 s",
+        "winner": "M-23-S-44-M",
+        "winner_mean": 4.236666666666666,
+        "base_winner_rank": 3,
+        "base_winner_gap": 0.02666666666666667,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 57,
+        "actual_gap": 0.18,
+        "actual_tied_or_best": false,
+        "candidates": 1409
+      },
+      {
+        "variant": "pit loss +2 s",
+        "winner": "S-17-M-41-M",
+        "winner_mean": 4.236666666666666,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 49,
+        "actual_gap": 0.17666666666666667,
+        "actual_tied_or_best": false,
+        "candidates": 1409
+      }
+    ]
+  },
+  {
+    "race": "2024 Abu Dhabi Grand Prix",
+    "driver": "NOR",
+    "actual": "M-26-H",
+    "recommended": "S-17-S-35-M",
+    "robust": false,
+    "low_confidence_tires": true,
+    "recommended_notes": [
+      "laps 1-17 on soft (C5): wear borrowed from a neighboring compound",
+      "laps 1-17 on soft (C5): 17-lap stint is longer than the 15 laps observed",
+      "laps 18-35 on soft (C5): wear borrowed from a neighboring compound",
+      "laps 18-35 on soft (C5): 18-lap stint is longer than the 15 laps observed"
+    ],
+    "variants": [
+      {
+        "variant": "base",
+        "winner": "S-17-S-35-M",
+        "winner_mean": 3.19,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 76,
+        "actual_gap": 0.24333333333333335,
+        "actual_tied_or_best": false,
+        "candidates": 848
+      },
+      {
+        "variant": "wear -20%",
+        "winner": "S-14-S-32-M",
+        "winner_mean": 3.22,
+        "base_winner_rank": 3,
+        "base_winner_gap": 0.02,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 52,
+        "actual_gap": 0.24333333333333335,
+        "actual_tied_or_best": false,
+        "candidates": 848
+      },
+      {
+        "variant": "wear +20%",
+        "winner": "S-17-S-35-M",
+        "winner_mean": 3.1466666666666665,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 119,
+        "actual_gap": 0.25333333333333335,
+        "actual_tied_or_best": false,
+        "candidates": 848
+      },
+      {
+        "variant": "no safety cars",
+        "winner": "M-23-S-41-S",
+        "winner_mean": 3.12,
+        "base_winner_rank": 3,
+        "base_winner_gap": 0.043333333333333335,
+        "base_winner_tied_or_best": false,
+        "actual_rank": 41,
+        "actual_gap": 0.17333333333333334,
+        "actual_tied_or_best": false,
+        "candidates": 848
+      },
+      {
+        "variant": "busy safety cars",
+        "winner": "S-17-S-35-M",
+        "winner_mean": 3.1733333333333333,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 66,
+        "actual_gap": 0.24,
+        "actual_tied_or_best": false,
+        "candidates": 848
+      },
+      {
+        "variant": "pit loss -2 s",
+        "winner": "S-17-S-35-M",
+        "winner_mean": 3.11,
+        "base_winner_rank": 1,
+        "base_winner_gap": 0.0,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 128,
+        "actual_gap": 0.30666666666666664,
+        "actual_tied_or_best": false,
+        "candidates": 848
+      },
+      {
+        "variant": "pit loss +2 s",
+        "winner": "S-14-S-32-M",
+        "winner_mean": 3.26,
+        "base_winner_rank": 2,
+        "base_winner_gap": 0.0033333333333333335,
+        "base_winner_tied_or_best": true,
+        "actual_rank": 36,
+        "actual_gap": 0.16,
+        "actual_tied_or_best": false,
+        "candidates": 848
+      }
+    ]
+  }
+]
