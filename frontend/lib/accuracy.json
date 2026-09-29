@@ -1,0 +1,321 @@
+{
+ "season": 2024,
+ "model": "quali+form",
+ "train_races": 15,
+ "held_out": {
+  "races": 5,
+  "spearman": 0.8713968745392894,
+  "spearman_grid": 0.6871472799646174,
+  "mae": 2.017249008312979,
+  "mae_grid": 3.025790333677331,
+  "beats_grid": 5,
+  "per_race": [
+   {
+    "race": "United States",
+    "mae": 1.829,
+    "mae_grid": 3.842,
+    "spearman": 0.904,
+    "spearman_grid": 0.602
+   },
+   {
+    "race": "Mexico City",
+    "mae": 1.94,
+    "mae_grid": 2.588,
+    "spearman": 0.855,
+    "spearman_grid": 0.848
+   },
+   {
+    "race": "Las Vegas",
+    "mae": 1.973,
+    "mae_grid": 2.278,
+    "spearman": 0.872,
+    "spearman_grid": 0.822
+   },
+   {
+    "race": "Qatar",
+    "mae": 2.598,
+    "mae_grid": 2.733,
+    "spearman": 0.814,
+    "spearman_grid": 0.743
+   },
+   {
+    "race": "Abu Dhabi",
+    "mae": 1.746,
+    "mae_grid": 3.688,
+    "spearman": 0.912,
+    "spearman_grid": 0.421
+   }
+  ],
+  "spearman_quali": 0.7852860091404983,
+  "coverage": 0.9411764705882353,
+  "log_score": -2.2631026346244627
+ },
+ "leave_one_out": {
+  "races": 15,
+  "spearman": 0.8797633790358249,
+  "spearman_grid": 0.8576158533588873,
+  "mae": 2.002047953673465,
+  "mae_grid": 2.3270439169819976,
+  "beats_grid": 12,
+  "per_race": [
+   {
+    "race": "Bahrain",
+    "mae": 2.246,
+    "mae_grid": 2.3,
+    "spearman": 0.919,
+    "spearman_grid": 0.886
+   },
+   {
+    "race": "Saudi Arabian",
+    "mae": 2.303,
+    "mae_grid": 2.167,
+    "spearman": 0.841,
+    "spearman_grid": 0.895
+   },
+   {
+    "race": "Australian",
+    "mae": 1.816,
+    "mae_grid": 2.438,
+    "spearman": 0.953,
+    "spearman_grid": 0.9
+   },
+   {
+    "race": "Japanese",
+    "mae": 1.216,
+    "mae_grid": 1.647,
+    "spearman": 0.939,
+    "spearman_grid": 0.931
+   },
+   {
+    "race": "Chinese",
+    "mae": 1.528,
+    "mae_grid": 2.471,
+    "spearman": 0.922,
+    "spearman_grid": 0.855
+   },
+   {
+    "race": "Miami",
+    "mae": 2.233,
+    "mae_grid": 2.789,
+    "spearman": 0.846,
+    "spearman_grid": 0.805
+   },
+   {
+    "race": "Emilia Romagna",
+    "mae": 1.539,
+    "mae_grid": 1.895,
+    "spearman": 0.956,
+    "spearman_grid": 0.911
+   },
+   {
+    "race": "Spanish",
+    "mae": 2.291,
+    "mae_grid": 1.5,
+    "spearman": 0.851,
+    "spearman_grid": 0.947
+   },
+   {
+    "race": "Austrian",
+    "mae": 3.069,
+    "mae_grid": 3.2,
+    "spearman": 0.623,
+    "spearman_grid": 0.641
+   },
+   {
+    "race": "Hungarian",
+    "mae": 1.587,
+    "mae_grid": 2.632,
+    "spearman": 0.935,
+    "spearman_grid": 0.788
+   },
+   {
+    "race": "Belgian",
+    "mae": 1.746,
+    "mae_grid": 2.333,
+    "spearman": 0.862,
+    "spearman_grid": 0.868
+   },
+   {
+    "race": "Dutch",
+    "mae": 2.911,
+    "mae_grid": 2.5,
+    "spearman": 0.826,
+    "spearman_grid": 0.847
+   },
+   {
+    "race": "Italian",
+    "mae": 1.793,
+    "mae_grid": 2.0,
+    "spearman": 0.923,
+    "spearman_grid": 0.884
+   },
+   {
+    "race": "Azerbaijan",
+    "mae": 2.292,
+    "mae_grid": 2.812,
+    "spearman": 0.885,
+    "spearman_grid": 0.806
+   },
+   {
+    "race": "Singapore",
+    "mae": 1.462,
+    "mae_grid": 2.222,
+    "spearman": 0.917,
+    "spearman_grid": 0.901
+   }
+  ],
+  "spearman_quali": 0.8647557619539044
+ },
+ "in_sample": {
+  "races": 20,
+  "spearman": 0.9483792471765369,
+  "spearman_grid": 0.81499871001032,
+  "mae": 1.2889346028981767,
+  "mae_grid": 2.5017305211558307,
+  "beats_grid": 19,
+  "per_race": [
+   {
+    "race": "Bahrain",
+    "mae": 1.105,
+    "mae_grid": 2.3,
+    "spearman": 0.964,
+    "spearman_grid": 0.886
+   },
+   {
+    "race": "Saudi Arabian",
+    "mae": 2.472,
+    "mae_grid": 2.167,
+    "spearman": 0.858,
+    "spearman_grid": 0.895
+   },
+   {
+    "race": "Australian",
+    "mae": 1.506,
+    "mae_grid": 2.438,
+    "spearman": 0.947,
+    "spearman_grid": 0.9
+   },
+   {
+    "race": "Japanese",
+    "mae": 0.925,
+    "mae_grid": 1.647,
+    "spearman": 0.99,
+    "spearman_grid": 0.931
+   },
+   {
+    "race": "Chinese",
+    "mae": 1.217,
+    "mae_grid": 2.471,
+    "spearman": 0.953,
+    "spearman_grid": 0.855
+   },
+   {
+    "race": "Miami",
+    "mae": 1.759,
+    "mae_grid": 2.789,
+    "spearman": 0.911,
+    "spearman_grid": 0.805
+   },
+   {
+    "race": "Emilia Romagna",
+    "mae": 0.768,
+    "mae_grid": 1.895,
+    "spearman": 0.989,
+    "spearman_grid": 0.911
+   },
+   {
+    "race": "Spanish",
+    "mae": 0.824,
+    "mae_grid": 1.5,
+    "spearman": 0.991,
+    "spearman_grid": 0.947
+   },
+   {
+    "race": "Austrian",
+    "mae": 2.405,
+    "mae_grid": 3.2,
+    "spearman": 0.675,
+    "spearman_grid": 0.641
+   },
+   {
+    "race": "Hungarian",
+    "mae": 0.761,
+    "mae_grid": 2.632,
+    "spearman": 0.993,
+    "spearman_grid": 0.788
+   },
+   {
+    "race": "Belgian",
+    "mae": 1.414,
+    "mae_grid": 2.333,
+    "spearman": 0.932,
+    "spearman_grid": 0.868
+   },
+   {
+    "race": "Dutch",
+    "mae": 0.81,
+    "mae_grid": 2.5,
+    "spearman": 0.994,
+    "spearman_grid": 0.847
+   },
+   {
+    "race": "Italian",
+    "mae": 1.042,
+    "mae_grid": 2.0,
+    "spearman": 0.981,
+    "spearman_grid": 0.884
+   },
+   {
+    "race": "Azerbaijan",
+    "mae": 2.19,
+    "mae_grid": 2.812,
+    "spearman": 0.971,
+    "spearman_grid": 0.806
+   },
+   {
+    "race": "Singapore",
+    "mae": 0.754,
+    "mae_grid": 2.222,
+    "spearman": 0.992,
+    "spearman_grid": 0.901
+   },
+   {
+    "race": "United States",
+    "mae": 0.845,
+    "mae_grid": 3.842,
+    "spearman": 0.991,
+    "spearman_grid": 0.602
+   },
+   {
+    "race": "Mexico City",
+    "mae": 0.793,
+    "mae_grid": 2.588,
+    "spearman": 0.99,
+    "spearman_grid": 0.848
+   },
+   {
+    "race": "Las Vegas",
+    "mae": 1.176,
+    "mae_grid": 2.278,
+    "spearman": 0.973,
+    "spearman_grid": 0.822
+   },
+   {
+    "race": "Qatar",
+    "mae": 1.808,
+    "mae_grid": 2.733,
+    "spearman": 0.925,
+    "spearman_grid": 0.743
+   },
+   {
+    "race": "Abu Dhabi",
+    "mae": 1.206,
+    "mae_grid": 3.688,
+    "spearman": 0.948,
+    "spearman_grid": 0.421
+   }
+  ],
+  "spearman_median": 0.9718782249742002,
+  "spearman_grid_median": 0.8517156862745098
+ }
+}
