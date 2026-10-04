@@ -1,0 +1,163 @@
+{
+  "machine": {
+    "model": "unknown",
+    "chip": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+    "performance_cores": 2,
+    "efficiency_cores": 0,
+    "logical_cpus": 2,
+    "memory_gb": 7,
+    "os": "Linux 6.18.44-fc-v114",
+    "libomp": "system",
+    "power": "n/a"
+  },
+  "optimized": {
+    "compiler": "gcc 13.3.0",
+    "cxx_flags": "Release:  -O3 -DNDEBUG",
+    "driver": "NOR",
+    "drivers": 20,
+    "engine_version": "1.0.0",
+    "hardware_threads": 2,
+    "laps": 53,
+    "monte_carlo": {
+      "checksum": "14f088eeb2f837dc",
+      "identical_across_threads": true,
+      "races": 20000,
+      "results": [
+        {
+          "checksum": "14f088eeb2f837dc",
+          "races_per_second": 13128.487874092078,
+          "seconds": 1.52340469,
+          "seconds_max": 1.586244079,
+          "seconds_min": 1.463216909,
+          "speedup_vs_1_thread": 1.0,
+          "threads": 1
+        },
+        {
+          "checksum": "14f088eeb2f837dc",
+          "races_per_second": 26777.025714663287,
+          "seconds": 0.746908944,
+          "seconds_max": 0.797450866,
+          "seconds_min": 0.740771602,
+          "speedup_vs_1_thread": 2.039612327898433,
+          "threads": 2
+        }
+      ]
+    },
+    "openmp": 201511,
+    "optimizer": {
+      "candidates": 824,
+      "checksum": "ff787ceb54b1d0e1",
+      "identical_across_threads": true,
+      "races_per_candidate": 300,
+      "results": [
+        {
+          "best": "H-23-M",
+          "checksum": "ff787ceb54b1d0e1",
+          "races_per_second": 12932.587556851953,
+          "seconds": 19.114504264,
+          "seconds_max": 21.170125553,
+          "seconds_min": 18.589885565,
+          "speedup_vs_1_thread": 1.0,
+          "threads": 1
+        },
+        {
+          "best": "H-23-M",
+          "checksum": "ff787ceb54b1d0e1",
+          "races_per_second": 24944.392974322112,
+          "seconds": 9.91004272,
+          "seconds_max": 10.040194418,
+          "seconds_min": 9.639637035,
+          "speedup_vs_1_thread": 1.9288013991527981,
+          "threads": 2
+        }
+      ]
+    },
+    "race": "2024 Italian Grand Prix",
+    "repeats": 5,
+    "seed": 2024,
+    "single_race": {
+      "checksum": "2b1666f797dedfc3",
+      "microseconds": 77.4804598,
+      "races": 5000
+    },
+    "strategy": "H-23-M"
+  },
+  "baseline": {
+    "compiler": "gcc 13.3.0",
+    "cxx_flags": "unknown",
+    "driver": "NOR",
+    "drivers": 20,
+    "engine_version": "unknown",
+    "hardware_threads": 2,
+    "laps": 53,
+    "monte_carlo": {
+      "checksum": "14f088eeb2f837dc",
+      "identical_across_threads": true,
+      "races": 20000,
+      "results": [
+        {
+          "checksum": "14f088eeb2f837dc",
+          "races_per_second": 7958.270895691077,
+          "seconds": 2.513108722,
+          "seconds_max": 2.654540361,
+          "seconds_min": 2.490957973,
+          "speedup_vs_1_thread": 1.0,
+          "threads": 1
+        },
+        {
+          "checksum": "14f088eeb2f837dc",
+          "races_per_second": 14705.850043323582,
+          "seconds": 1.360002988,
+          "seconds_max": 1.412382699,
+          "seconds_min": 1.339782308,
+          "speedup_vs_1_thread": 1.8478700004150286,
+          "threads": 2
+        }
+      ]
+    },
+    "openmp": 201511,
+    "optimizer": {
+      "candidates": 824,
+      "checksum": "ff787ceb54b1d0e1",
+      "identical_across_threads": true,
+      "races_per_candidate": 300,
+      "results": [
+        {
+          "best": "H-23-M",
+          "checksum": "ff787ceb54b1d0e1",
+          "races_per_second": 7764.225730949711,
+          "seconds": 31.838332445,
+          "seconds_max": 32.084952503,
+          "seconds_min": 31.458767457,
+          "speedup_vs_1_thread": 1.0,
+          "threads": 1
+        },
+        {
+          "best": "H-23-M",
+          "checksum": "ff787ceb54b1d0e1",
+          "races_per_second": 14612.956107825776,
+          "seconds": 16.916495073,
+          "seconds_max": 17.754240014,
+          "seconds_min": 16.493490399,
+          "speedup_vs_1_thread": 1.8820880039043297,
+          "threads": 2
+        }
+      ]
+    },
+    "race": "2024 Italian Grand Prix",
+    "repeats": 5,
+    "seed": 2024,
+    "single_race": {
+      "checksum": "2b1666f797dedfc3",
+      "microseconds": 123.6473138,
+      "races": 5000
+    },
+    "strategy": "H-23-M"
+  },
+  "optimization_speedup_1_thread": {
+    "single_race": 1.595851574954128,
+    "monte_carlo": 1.649665869152602,
+    "optimizer": 1.6656635194543803
+  },
+  "same_results_as_baseline": true
+}
