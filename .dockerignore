@@ -1,0 +1,14 @@
+**/.git
+**/.venv
+**/__pycache__
+**/.pytest_cache
+.fastf1-cache
+engine/build*
+frontend/node_modules
+frontend/.next
+frontend/test-results
+frontend/playwright-report
+frontend/tsconfig.tsbuildinfo
+data/calibration/output
+results
+docs
