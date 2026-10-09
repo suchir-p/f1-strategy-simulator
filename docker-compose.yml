@@ -1,0 +1,98 @@
+# The whole stack:  docker compose up --build    then open http://localhost:3000
+#
+#   db     PostgreSQL 16 (jobs, calibrations)
+#   api    FastAPI + the C++ engine; applies database migrations at startup
+#   web    Next.js dashboard; forwards /api/* to the api service
+#   proxy  nginx, the only public entry point; sets the client address the
+#          API rate-limits on (deploy/nginx/default.conf.template)
+#
+# Local defaults need no configuration. For anything reachable by other people,
+# copy .env.example to .env and set F1SIM_ENV=production and a real database
+# password (see docs/deployment.md); the API refuses to start in production
+# mode with the default credentials.
+#
+# Only the proxy is published on all interfaces. The database and the API are
+# bound to localhost, for local tools and tests; the dashboard isn't published
+# at all, so every visitor comes through the proxy.
+
+x-db-credentials: &db-credentials
+  POSTGRES_USER: ${POSTGRES_USER:-f1sim}
+  POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-f1sim}
+  POSTGRES_DB: ${POSTGRES_DB:-f1sim}
+
+services:
+  db:
+    image: postgres:16
+    environment: *db-credentials
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - f1sim-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER}"]
+      interval: 2s
+      retries: 15
+    deploy:
+      resources:
+        limits: {cpus: "1", memory: 512M}
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      F1SIM_ENV: ${F1SIM_ENV:-development}
+      F1SIM_DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-f1sim}:${POSTGRES_PASSWORD:-f1sim}@db:5432/${POSTGRES_DB:-f1sim}
+      F1SIM_MAX_WORKERS: ${F1SIM_MAX_WORKERS:-1}
+      F1SIM_OMP_THREADS_PER_WORKER: ${F1SIM_OMP_THREADS_PER_WORKER:-2}
+      F1SIM_RATE_LIMIT_PER_MINUTE: ${F1SIM_RATE_LIMIT_PER_MINUTE:-}
+      # Requests arrive through the web service, which adds X-Forwarded-For.
+      F1SIM_TRUST_FORWARDED_FOR: "true"
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      db: {condition: service_healthy}
+    deploy:
+      resources:
+        # One worker x 2 OpenMP threads, plus the API itself.
+        limits: {cpus: "3", memory: 1G}
+    restart: unless-stopped
+
+  web:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        F1SIM_API_URL: http://api:8000
+    depends_on:
+      api: {condition: service_healthy}
+    deploy:
+      resources:
+        limits: {cpus: "1", memory: 512M}
+    restart: unless-stopped
+
+  proxy:
+    image: nginx:1.27-alpine
+    environment:
+      # Address range of a load balancer in front of this stack, if any; its
+      # X-Forwarded-For is then trusted. The default trusts no one.
+      F1SIM_TRUSTED_PROXY_CIDR: ${F1SIM_TRUSTED_PROXY_CIDR:-127.0.0.1/32}
+      NGINX_ENVSUBST_FILTER: ^F1SIM_
+    volumes:
+      - ./deploy/nginx/default.conf.template:/etc/nginx/templates/default.conf.template:ro
+    ports:
+      - "${F1SIM_WEB_PORT:-3000}:8080"
+    depends_on:
+      web: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1:8080/ || exit 1"]
+      interval: 5s
+      retries: 10
+    deploy:
+      resources:
+        limits: {cpus: "0.5", memory: 128M}
+    restart: unless-stopped
+
+volumes:
+  f1sim-pgdata:
