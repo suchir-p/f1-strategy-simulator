@@ -92,3 +92,72 @@ JSONB, unique per race, mode and data version), `tire_calibrations`
 result JSONB, error). Only aggregated results are stored, never per-lap or
 per-scenario rows. Tables are created at startup; migrations (Alembic) are a
 later addition.
+
+## Running the API locally
+
+```bash
+docker compose up -d db                                   # just PostgreSQL 16
+pip install -r backend/requirements.txt
+cmake -S engine -B engine/build -DF1SIM_BUILD_PYTHON=ON \
+      -Dpybind11_DIR=$(python3 -c "import pybind11; print(pybind11.get_cmake_dir())")
+cmake --build engine/build -j
+cd backend && python -m uvicorn app.main:app --reload     # http://localhost:8000/docs
+```
+
+## Endpoints
+
+| Endpoint | Purpose |
+| --- | --- |
+| `GET /races` | Races, and which calibration modes each one supports |
+| `GET /races/{id}/drivers` | Drivers and starting grid |
+| `GET /races/{id}/tires?mode=` | Tire parameters, confidence levels and provenance |
+| `POST /simulations` | Simulate one strategy for one driver (returns a job) |
+| `POST /optimizations` | Grid-search strategies for one driver (returns a job) |
+| `POST /traces` | Replay one simulated race lap by lap (inline, bounded) |
+| `GET /jobs/{id}` | Status, full effective parameters including the seed, errors |
+| `GET /jobs` | Recent jobs (development only; hidden in production) |
+| `GET /jobs/{id}/result` | Outcome, rankings, warnings and metadata |
+| `GET /health` | Versions, worker and queue status |
+
+## Guarantees
+
+* **Two labeled modes.** `pre_race` (default) uses only races before the one
+  requested plus that weekend's grid and qualifying; rivals run a reference
+  strategy, not their real one. `race_fitted` is retrospective. A test
+  scrambles a race's outcome, and every later race, and checks the pre-race
+  config doesn't change.
+* **Reproducible.** Every job stores its full configuration, seed, engine
+  version and data version; the same inputs and seed give identical results.
+* **Bounded.** Fixed worker pool (spawned processes, capped OpenMP threads),
+  a pending-job limit enforced under concurrency (`429`), and oversized jobs
+  refused up front (`422`).
+* **Honest failures.** Engine errors, worker crashes and restarts end in
+  explicit `failed` states with sanitized messages; pending jobs survive a
+  restart.
+* **Caveats preserved.** Results carry tire confidence levels, strategy
+  warnings, the outcome split into finish probability and position-if-finished,
+  and provenance.
+* **Migrations.** The schema is versioned with Alembic and upgraded at
+  startup under an advisory lock; databases created before migrations existed
+  are adopted in place.
+* **Production mode.** `F1SIM_ENV=production` refuses default database
+  credentials, hides the job list and rate-limits submissions per client
+  ([deployment.md](deployment.md)).
+
+## Request options
+
+Simulations and searches also take `safety_car_laps` (a what-if: those laps
+run under the safety car in every simulated race), and a simulation can take
+`compare_with`, a second strategy run on the same races for a paired
+comparison. Search results include every candidate's score (`landscape`) for
+charting the pit window.
+
+## Tests
+
+Tests (31 integration tests against real PostgreSQL, worker processes and the
+engine, plus 8 data-pipeline tests including pre-race integrity):
+
+```bash
+python -m pytest data/tests
+cd backend && python -m pytest        # needs the docker-compose database
+```

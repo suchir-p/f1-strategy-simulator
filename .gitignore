@@ -13,3 +13,4 @@ frontend/tsconfig.tsbuildinfo
 results/.bench-*
 .env
 dist/
+.Rhistory
